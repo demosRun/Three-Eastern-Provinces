@@ -1,0 +1,309 @@
+<template lang="pug">
+.home
+  temple(name="topBar", logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png", src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page")
+  // 封面
+  .one.change-item
+    .main-box
+      p 2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    //- 大楼
+    img.build(src="@|build.png|")
+    //- 鼠标悬浮按钮
+    img.mouse(src="@|mouse.png|")
+  //- 综述页
+  .two.change-item
+    .title-bar.clear
+      .title-box(font="FZQK.TTF") 综述稿
+      .main-title(font="FZQK.TTF") 新时代振兴需要创新精神
+    .connent-box
+      temple(name="swiperBox", src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page")
+      .right-text &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。2018年9月底习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+  //- 辽宁篇
+  .three.change-item
+    img.title(src="@|three-title.png|")
+    p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
+  //- 吉林篇
+  .four.change-item
+    img.title(src="@|four-title.png|")
+    p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
+  //- 黑龙江/封底
+  .five.change-item
+    img.title(src="@|four-title.png|")
+    p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
+  
+  // 右侧菜单栏
+  .menu-box.clear
+    .menu-box-left
+      p.one-button(:tap="one") 封面
+      p.two-button(:tap="two") 综述稿
+      p.three-button(:tap="three") 辽宁篇
+      p.four-button(:tap="four") 吉林篇
+      p.five-button(:tap="five") 黑龙江
+    .menu-box-right
+      img.spot(src="@|spot.png|")
+  //- 底部丝带
+  img.silk-ribbon(src="@|silk-ribbon.png|")
+  temple(name="copyright", src="https://owo.ink/public/080195cd2dcfc878e55f9b7f9fa1c9b7.page")
+</template>
+
+<script>
+  module.exports = {
+    data: {
+      swiperCreated: false
+    },
+    created: function () {
+      // 判断是否为手机
+      if (_owo.isMobi) {
+        document.body.classList.add('min')
+      }
+      owo.tool.animate('fadeInUp', this.query('.silk-ribbon')[0])
+      owo.tool.animate('fadeInUp', this.query('.build')[0], 800)
+      owo.tool.animate('flash', this.query('.mouse')[0], 1400)
+      // 判断用户是否滑动
+      // console.log(this.$el)
+      setTimeout(() => {
+        owo.tool.touch({
+          el: this.query('.one.change-item')[0],
+          end: (event) => {
+            if (Math.abs(event.swipe[0]) > 100 || Math.abs(event.swipe[1]) > 100) {
+              if (!this.data.swiperCreated) {
+                new Swiper('.swiper-container-pPX8XxuUyIehAAEu', {
+                  autoplay: 3000,
+                  pagination: '.pagination-pPX8XxuUyIehAAEu',
+                  paginationClickable: true
+                })
+                this.data.swiperCreated = true
+              }
+              
+              this.two()
+            }
+          }
+        })
+      }, 1000)
+    },
+    clearAndSet: function (key) {
+      const domList = this.query('.menu-box-left p')
+      const changeItem = this.query('.change-item')
+      
+      domList.forEach(element => {
+        element.classList.remove('active')
+      })
+      changeItem.forEach(element => {
+        element.style.opacity = 0
+      })
+      this.query("." + key)[0].style.display = 'block'
+      this.query("." + key + '-button')[0].classList.add('active')
+      setTimeout(() => {
+        this.query("." + key)[0].style.opacity = 1
+      }, 600)
+      setTimeout(() => {
+        changeItem.forEach(element => {
+          if (!element.classList.contains(key)) {
+            element.style.display = 'none'
+          }
+        })
+      }, 1200)
+      document.getElementsByClassName('mt30')[0].style.display = 'none'
+    },
+    one: function () {
+      console.log('进入封面!')
+      this.query('.menu-box-right .spot')[0].style.top = '10px'
+      this.query('.build')[0].style.opacity = '1'
+      this.query('.one')[0].style.opacity = '1'
+      this.query('.menu-box')[0].style.right = '-100px'
+      this.query('.mouse')[0].style.display = 'block'
+      this.clearAndSet('one')
+    },
+    two: function () {
+      console.log('进入综述!')
+      
+      this.query('.build')[0].style.opacity = '0'
+      this.query('.one')[0].style.opacity = '0'
+      this.query('.menu-box')[0].style.right = '4%'
+      this.query('.mouse')[0].style.display = 'none'
+      // 小圆点移动
+      this.query('.menu-box-right .spot')[0].style.top = '60px'
+      this.query('.build')[0].display = 'none'
+      this.clearAndSet('two')
+    },
+    three: function () {
+      // 小圆点移动
+      this.query('.menu-box-right .spot')[0].style.top = '110px'
+      this.clearAndSet('three')
+    },
+    four: function () {
+      // 小圆点移动
+      this.query('.menu-box-right .spot')[0].style.top = '160px'
+      this.clearAndSet('four')
+    },
+    five: function () {
+      // 小圆点移动
+      this.query('.menu-box-right .spot')[0].style.top = '210px'
+      this.clearAndSet('five')
+      document.getElementsByClassName('mt30')[0].style.display = 'block'
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-box {
+  width: 875px;
+  height: 487px;
+  background-image: url('@|one-main.png|');
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 5%;
+  position: absolute;
+}
+.silk-ribbon {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  left: 0;
+  pointer-events: none;
+}
+.build {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  z-index: 2;
+  transition: opacity 0.5s linear;
+}
+.mouse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 2%;
+  z-index: 4;
+}
+.main-box p {
+  color: #01336a;
+  font-size: 20px;
+  font-weight: bold;
+  width: 645px;
+  position: absolute;
+  left: 100px;
+  top: 396px;
+  line-height: 28px;
+}
+.menu-box {
+  position: absolute;
+  right: -100px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 250px;
+  transition: right 0.5s linear;
+  .menu-box-left {
+    float: left;
+    p {
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 50px;
+      text-align: center;
+      color: #003977;
+      cursor: pointer;
+    }
+    p:hover {
+      color: blueviolet;
+    }
+    .active {
+      color: #b22306;
+    }
+  }
+  
+  .menu-box-right {
+    float: left;
+    height: 100%;
+    border: 2px solid #003977;
+    margin-left: 20px;
+    position: relative;
+    .spot {
+      position: absolute;
+      left: -12px;
+      top: 10px;
+      transition: top 0.5s linear;
+    }
+  }
+}
+.change-item {
+  transition: opacity 0.5s linear;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
+}
+.one {
+  display: block;
+  img {
+    user-select: none;
+    pointer-events: none;
+  }
+}
+.two {
+  display: none;
+  width: 1094px;
+  height: 518px;
+  .main-title {
+    float: left;
+    color: #003977;
+    font-size: 36px;
+    height: 73px;
+    line-height: 73px;
+    font-weight: bold;
+    margin-left: 30px;
+  }
+  .connent-box {
+    padding-top: 40px;
+    .swiper-box {
+      float: left;
+    }
+    .right-text {
+      color: #01336a;
+      font-size: 22px;
+      line-height: 28px;
+      width: 450px;
+      height: 330px;
+      overflow: hidden;
+      float: left;
+      margin-left: 40px;
+    }
+  }
+}
+// 方块小标题
+.title-box {
+  width: 217px;
+  height: 73px;
+  float: left;
+  color: white;
+  text-align: center;
+  line-height: 68px;
+  font-size: 26px;
+  background-image: url('@|title-box.png|');
+}
+.three, .four, .five {
+  width: 702px;
+  height: 586px;
+  img {
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 28px;
+    color: #01336a;
+    margin-bottom: 20px;
+  }
+}
+</style>

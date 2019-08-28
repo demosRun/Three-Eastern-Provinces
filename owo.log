@@ -1,0 +1,183 @@
+16:27:01.728 INFO  --------------------------- 开始编译 --------------------------- 
+16:27:01.729 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:27:01.729 INFO  首次启动! 
+16:27:01.729 INFO  生成版本号: 7gantk01ouj 
+16:27:01.740 INFO  清理资源文件夹: D:\work\Three Eastern Provinces\dist\static 
+16:27:01.741 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static 
+16:27:01.741 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static 
+16:27:01.741 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:27:01.741 DEBUG 读取网页标题: 页面 
+16:27:01.741 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=900, user-scalable=yes, shrink-to-fit=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:27:01.742 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:27:01.742 INFO  开始处理模块: home 
+16:27:02.351 INFO  开始处理模块: topBar 
+16:27:02.351 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:27:02.360 DEBUG 缓存模板: topBarundefined 
+16:27:02.364 DEBUG 模板home处理用时: 14 毫秒! 
+16:27:02.364 DEBUG 模块 swiperBox 因名称重复被重命名为 swiperBox0 
+16:27:02.364 INFO  开始处理模块: swiperBox 
+16:27:02.364 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:27:02.419 DEBUG 缓存模板: swiperBoxundefined 
+16:27:02.421 DEBUG 模板home处理用时: 57 毫秒! 
+16:27:02.422 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:27:02.422 INFO  开始处理模块: copyright 
+16:27:02.422 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:27:02.426 DEBUG 缓存模板: copyrightundefined 
+16:27:02.427 DEBUG 模板home处理用时: 5 毫秒! 
+16:27:02.437 DEBUG 缓存模板: home./src/page/home.page 
+16:27:02.437 DEBUG 模板home处理用时: 695 毫秒! 
+16:27:02.438 INFO  文件夹不存在: D:/work/Three Eastern Provinces/dist/static/resource 
+16:27:02.439 INFO  创建文件夹: D:/work/Three Eastern Provinces/dist/static/resource 
+16:27:02.440 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/one-main.png","D:/work/Three Eastern Provinces/src/resource/title-box.png"] 
+16:27:02.440 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:27:02.442 DEBUG css中的资源处理完毕! 
+16:27:02.442 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:27:02.491 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static\css 
+16:27:02.491 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static\css 
+16:27:02.491 INFO  开始处理附属css中的资源 
+16:27:02.492 INFO  附属css中的资源处理完毕! 
+16:27:02.492 INFO  开始处理附属css中的资源 
+16:27:02.492 INFO  附属css中的资源处理完毕! 
+16:27:02.492 INFO  处理字体:{"FZQK.TTF":"综述稿新时代振兴需要创新精神"} 
+16:27:02.647 INFO  使用postcss处理完毕! 用时: 205 毫秒 
+16:27:02.647 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox\"] .swiper-box:",".swiper-box[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] .swiper-box ",".swiper-box[template=\"swiperBox\"] "],["[template=\"swiperBox\"] .swiper-box{",".swiper-box[template=\"swiperBox\"]{"],["[template=\"swiperBox\"] div:","div[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] div ","div[template=\"swiperBox\"] "],["[template=\"swiperBox\"] div{","div[template=\"swiperBox\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:27:02.648 INFO  正在处理script! 
+16:27:02.649 INFO  工程中只有一个页面! 
+16:27:02.656 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static\js 
+16:27:02.657 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static\js 
+16:27:02.657 DEBUG 选择将js合并到html中! 
+16:27:03.550 INFO  js中的资源处理完毕! 
+16:27:03.551 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+16:27:03.551 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:27:03.551 DEBUG 外部脚本数量: 2 
+16:27:03.551 DEBUG 处理脚本: swiper2.7.0 
+16:27:03.551 INFO  读取文件: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.min.js 
+16:27:03.551 DEBUG 处理脚本: jquery1.11.0 
+16:27:03.551 DEBUG 网络脚本: jquery1.11.0 
+16:27:03.551 DEBUG 输出scriptData 
+16:27:03.552 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:27:03.552 DEBUG 准备输出html! 
+16:27:03.553 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title.png 
+16:27:03.553 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/build.png","D:/work/Three Eastern Provinces/src/resource/mouse.png","D:/work/Three Eastern Provinces/src/resource/three-title.png","D:/work/Three Eastern Provinces/src/resource/four-title.png","D:/work/Three Eastern Provinces/src/resource/spot.png","D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png"] 
+16:27:03.553 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:27:03.555 INFO  发送重新页面需要刷新命令! 
+16:27:03.603 INFO  读取成功: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.css 
+16:27:03.604 INFO  主要逻辑文件写出成功! 
+16:27:03.604 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+16:27:03.605 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/bg.jpg"] 
+16:27:03.605 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:27:03.606 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+16:27:03.606 INFO  animation文件写出成功! 
+16:27:03.796 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+16:27:03.797 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\swiper2.7.0.css 
+16:27:03.825 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\js\autoReload.js 
+16:27:03.883 INFO  读取成功: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.min.js 
+16:27:03.919 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\js\swiper2.7.0.js 
+16:27:59.523 INFO  file change: D:\work\Three Eastern Provinces\src\page\home.page 
+16:27:59.524 INFO  --------------------------- 开始编译 --------------------------- 
+16:27:59.524 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:27:59.524 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\page\home.page 
+16:27:59.524 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:27:59.524 DEBUG 读取网页标题: 页面 
+16:27:59.524 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=900, user-scalable=yes, shrink-to-fit=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:27:59.524 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:27:59.524 INFO  开始处理模块: home 
+16:27:59.569 INFO  开始处理模块: topBar 
+16:27:59.569 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:27:59.572 DEBUG 缓存模板: topBarundefined 
+16:27:59.573 DEBUG 模板home处理用时: 4 毫秒! 
+16:27:59.574 DEBUG 模块 swiperBox 因名称重复被重命名为 swiperBox0 
+16:27:59.574 INFO  开始处理模块: swiperBox 
+16:27:59.575 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:27:59.592 DEBUG 缓存模板: swiperBoxundefined 
+16:27:59.593 DEBUG 模板home处理用时: 19 毫秒! 
+16:27:59.595 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:27:59.595 INFO  开始处理模块: copyright 
+16:27:59.595 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:27:59.598 DEBUG 缓存模板: copyrightundefined 
+16:27:59.599 DEBUG 模板home处理用时: 4 毫秒! 
+16:27:59.610 DEBUG 缓存模板: home./src/page/home.page 
+16:27:59.610 DEBUG 模板home处理用时: 86 毫秒! 
+16:27:59.610 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:27:59.610 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:27:59.610 DEBUG css中的资源处理完毕! 
+16:27:59.610 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:27:59.618 INFO  处理字体:{"FZQK.TTF":"综述稿新时代振兴需要创新精神"} 
+16:27:59.622 INFO  使用postcss处理完毕! 用时: 12 毫秒 
+16:27:59.622 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox\"] .swiper-box:",".swiper-box[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] .swiper-box ",".swiper-box[template=\"swiperBox\"] "],["[template=\"swiperBox\"] .swiper-box{",".swiper-box[template=\"swiperBox\"]{"],["[template=\"swiperBox\"] div:","div[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] div ","div[template=\"swiperBox\"] "],["[template=\"swiperBox\"] div{","div[template=\"swiperBox\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:27:59.622 INFO  正在处理script! 
+16:27:59.623 INFO  工程中只有一个页面! 
+16:27:59.626 DEBUG 选择将js合并到html中! 
+16:27:59.685 INFO  js中的资源处理完毕! 
+16:27:59.685 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:27:59.685 DEBUG 外部脚本数量: 2 
+16:27:59.685 DEBUG 处理脚本: swiper2.7.0 
+16:27:59.685 DEBUG 处理脚本: jquery1.11.0 
+16:27:59.685 DEBUG 网络脚本: jquery1.11.0 
+16:27:59.685 DEBUG 输出scriptData 
+16:27:59.686 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:27:59.686 DEBUG 准备输出html! 
+16:27:59.686 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:27:59.686 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:27:59.686 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title.png 
+16:27:59.686 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title.png 
+16:27:59.686 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title.png 
+16:27:59.686 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:27:59.686 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:27:59.688 INFO  发送重新页面需要刷新命令! 
+16:27:59.691 INFO  animation文件写出成功! 
+16:27:59.691 INFO  主要逻辑文件写出成功! 
+16:29:15.903 INFO  file change: D:\work\Three Eastern Provinces\src\page\home.page 
+16:29:15.903 INFO  --------------------------- 开始编译 --------------------------- 
+16:29:15.903 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:29:15.903 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\page\home.page 
+16:29:15.903 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:29:15.904 DEBUG 读取网页标题: 页面 
+16:29:15.904 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=900, user-scalable=yes, shrink-to-fit=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:29:15.904 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:29:15.904 INFO  开始处理模块: home 
+16:29:15.952 INFO  开始处理模块: topBar 
+16:29:15.952 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:29:15.956 DEBUG 缓存模板: topBarundefined 
+16:29:15.957 DEBUG 模板home处理用时: 5 毫秒! 
+16:29:15.958 DEBUG 模块 swiperBox 因名称重复被重命名为 swiperBox0 
+16:29:15.958 INFO  开始处理模块: swiperBox 
+16:29:15.958 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:29:15.977 DEBUG 缓存模板: swiperBoxundefined 
+16:29:15.979 DEBUG 模板home处理用时: 21 毫秒! 
+16:29:15.981 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:29:15.981 INFO  开始处理模块: copyright 
+16:29:15.981 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:29:15.983 DEBUG 缓存模板: copyrightundefined 
+16:29:15.984 DEBUG 模板home处理用时: 3 毫秒! 
+16:29:15.995 DEBUG 缓存模板: home./src/page/home.page 
+16:29:15.995 DEBUG 模板home处理用时: 91 毫秒! 
+16:29:15.996 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:29:15.996 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:29:15.996 DEBUG css中的资源处理完毕! 
+16:29:15.996 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:29:16.004 INFO  处理字体:{"FZQK.TTF":"综述稿新时代振兴需要创新精神"} 
+16:29:16.009 INFO  使用postcss处理完毕! 用时: 13 毫秒 
+16:29:16.009 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox\"] .swiper-box:",".swiper-box[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] .swiper-box ",".swiper-box[template=\"swiperBox\"] "],["[template=\"swiperBox\"] .swiper-box{",".swiper-box[template=\"swiperBox\"]{"],["[template=\"swiperBox\"] div:","div[template=\"swiperBox\"]:"],["[template=\"swiperBox\"] div ","div[template=\"swiperBox\"] "],["[template=\"swiperBox\"] div{","div[template=\"swiperBox\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:29:16.009 INFO  正在处理script! 
+16:29:16.012 INFO  工程中只有一个页面! 
+16:29:16.015 DEBUG 选择将js合并到html中! 
+16:29:16.051 INFO  js中的资源处理完毕! 
+16:29:16.051 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:29:16.051 DEBUG 外部脚本数量: 2 
+16:29:16.051 DEBUG 处理脚本: swiper2.7.0 
+16:29:16.051 DEBUG 处理脚本: jquery1.11.0 
+16:29:16.051 DEBUG 网络脚本: jquery1.11.0 
+16:29:16.051 DEBUG 输出scriptData 
+16:29:16.052 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:29:16.052 DEBUG 准备输出html! 
+16:29:16.052 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:29:16.052 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:29:16.052 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title.png 
+16:29:16.052 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title.png 
+16:29:16.052 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title.png 
+16:29:16.052 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:29:16.052 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:29:16.054 INFO  发送重新页面需要刷新命令! 
+16:29:16.093 INFO  主要逻辑文件写出成功! 
+16:29:16.093 INFO  animation文件写出成功! 

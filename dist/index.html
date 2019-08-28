@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <title>页面</title>
+    <!-- 页面的元信息 -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=900, user-scalable=yes, shrink-to-fit=no"/>
+    <meta name="format-detection" content="telephone=no, email=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="white"/>
+    <meta name="renderer" content="webkit"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+    <meta name="filetype" content="1"/>
+    <meta name="publishedtype" content="1"/>
+    <meta name="pagetype" content="2"/>
+    <meta name="screen-orientation" content="landscape"/>
+    <meta name="x5-orientation" content="landscape"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="browsermode" content="application"/>
+    <meta name="x5-page-mode" content="app"/>
+    <!-- 页面主样式文件 -->
+<style>
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+}
+
+.owo-animation {
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+.owo-animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.owo-animation-forward {
+  z-index: 99;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+}
+
+/* 清除浮动 */
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+  zoom: 1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.title-bar[template="topBar"] {
+  height: 40px;
+  background-color: #ffffff;
+}
+
+[template="topBar"] .content {
+  width: 1000px;
+  height: 40px;
+  margin: auto;
+}
+
+[template="topBar"] img {
+  margin: 5px 10px;
+  height: 30px;
+}
+
+[template="topBar"] a {
+  float: left;
+  display: block;
+}
+
+[template="topBar"] .link {
+  color: rgba(102, 102, 102, 1.00);
+  font-size: 14px;
+  margin: 0 10px;
+  line-height: 40px;
+}
+
+[template="topBar"] a {
+  color: #333;
+  text-decoration: none;
+}
+          [font="FZQK.TTF"] {
+            font-family: 'FZQK';
+          }
+          @font-face {
+            font-family: 'FZQK';
+            src: url('./static/font/FZQK.eot');
+            src: url('./static/font/FZQK.eot?#iefix') format('embedded-opentype'),
+              url('./static/font/FZQK.woff') format('woff'),
+              url('./static/font/FZQK.ttf')  format('truetype'),
+              url('./static/font/FZQK.svg#MicrosoftYaHei') format('svg');
+          }
+        
+          [font="FZQK.TTF"] {
+            font-family: 'FZQK';
+          }
+          @font-face {
+            font-family: 'FZQK';
+            src: url('./static/font/FZQK.eot');
+            src: url('./static/font/FZQK.eot?#iefix') format('embedded-opentype'),
+              url('./static/font/FZQK.woff') format('woff'),
+              url('./static/font/FZQK.ttf')  format('truetype'),
+              url('./static/font/FZQK.svg#MicrosoftYaHei') format('svg');
+          }
+        
+.swiper-box[template="swiperBox"] {
+  height: 330px;
+  overflow: hidden;
+  width: 570px;
+  margin: 0 auto;
+}
+
+.swiper-box[template="swiperBox"] img {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-box[template="swiperBox"] .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 100%;
+  font-size: 14px;
+}
+
+.swiper-box[template="swiperBox"] .right {
+  width: 100%;
+  height: 330px;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.swiper-box[template="swiperBox"] .o-home .swiper-wrapper .text {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  line-height: 30px;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.swiper-box[template="swiperBox"] .pagination {
+  position: absolute;
+  bottom: 5px;
+  height: 20px;
+  right: 5px;
+}
+
+[template="swiperBox"] .swiper-pagination-switch {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: white;
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0px 1px 2px #555 inset;
+}
+
+[template="swiperBox"] .swiper-active-switch {
+  background-color: blue;
+}
+
+[template="swiperBox"] a {
+  text-decoration: none;
+}
+
+[template="swiperBox"] .swiper-slide {
+  position: relative;
+}
+
+[template="swiperBox"] .pagination-pPX8XxuUyIehAAEu {
+  position: absolute;
+  bottom: 3px;
+  right: 10px;
+}
+.mt30 {
+  position: relative;
+  font-size: 12px;
+  height: 70px;
+  color: #003977;
+  position: absolute;
+  bottom: 10%;
+  z-index: 999;
+  width: 100%;
+  display: none;
+  text-align: center;
+}
+[template="home"] .main-box {
+  width: 875px;
+  height: 487px;
+  background-image: url('./static/resource/one-main.png');
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 5%;
+  position: absolute;
+}
+
+[template="home"] .silk-ribbon {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  z-index: 3;
+  left: 0;
+  pointer-events: none;
+}
+
+[template="home"] .build {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 5%;
+  z-index: 2;
+  transition: opacity 0.5s linear;
+}
+
+[template="home"] .mouse {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 2%;
+  z-index: 4;
+}
+
+[template="home"] .main-box p {
+  color: #01336a;
+  font-size: 20px;
+  font-weight: bold;
+  width: 645px;
+  position: absolute;
+  left: 100px;
+  top: 396px;
+  line-height: 28px;
+}
+
+[template="home"] .menu-box {
+  position: absolute;
+  right: -100px;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 250px;
+  transition: right 0.5s linear;
+}
+
+[template="home"] .menu-box .menu-box-left {
+  float: left;
+}
+
+[template="home"] .menu-box .menu-box-left p {
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 50px;
+  text-align: center;
+  color: #003977;
+  cursor: pointer;
+}
+
+[template="home"] .menu-box .menu-box-left p:hover {
+  color: blueviolet;
+}
+
+[template="home"] .menu-box .menu-box-left .active {
+  color: #b22306;
+}
+
+[template="home"] .menu-box .menu-box-right {
+  float: left;
+  height: 100%;
+  border: 2px solid #003977;
+  margin-left: 20px;
+  position: relative;
+}
+
+[template="home"] .menu-box .menu-box-right .spot {
+  position: absolute;
+  left: -12px;
+  top: 10px;
+  transition: top 0.5s linear;
+}
+
+[template="home"] .change-item {
+  transition: opacity 0.5s linear;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: none;
+}
+
+[template="home"] .one {
+  display: block;
+}
+
+[template="home"] .one img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+[template="home"] .two {
+  display: none;
+  width: 1094px;
+  height: 518px;
+}
+
+[template="home"] .two .main-title {
+  float: left;
+  color: #003977;
+  font-size: 36px;
+  height: 73px;
+  line-height: 73px;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+[template="home"] .two .connent-box {
+  padding-top: 40px;
+}
+
+[template="home"] .two .connent-box .swiper-box {
+  float: left;
+}
+
+[template="home"] .two .connent-box .right-text {
+  color: #01336a;
+  font-size: 22px;
+  line-height: 28px;
+  width: 450px;
+  height: 330px;
+  overflow: hidden;
+  float: left;
+  margin-left: 40px;
+}
+
+[template="home"] .title-box {
+  width: 217px;
+  height: 73px;
+  float: left;
+  color: white;
+  text-align: center;
+  line-height: 68px;
+  font-size: 26px;
+  background-image: url('./static/resource/title-box.png');
+}
+
+[template="home"] .three,
+[template="home"] .four,
+[template="home"] .five {
+  width: 702px;
+  height: 586px;
+}
+
+[template="home"] .three img,
+[template="home"] .four img,
+[template="home"] .five img {
+  margin-bottom: 20px;
+}
+
+[template="home"] .three p,
+[template="home"] .four p,
+[template="home"] .five p {
+  font-size: 20px;
+  line-height: 28px;
+  color: #01336a;
+  margin-bottom: 20px;
+}
+</style>
+    <!-- 附属css文件 -->
+    <link rel="stylesheet" href="./static/css/swiper2.7.0.css" charset="utf-8">
+    <link rel="stylesheet" href="./static/css/main.css" charset="utf-8">
+    
+    <link rel="stylesheet" href="./static/css/owo.animate.css">
+  </head>
+  <body>
+    <!-- 页面区域 -->
+    <div class="home ox" template="home"><div class="title-bar" template="topBar">
+    <div class="content">
+      <a target="_blank" href="http://www.people.com.cn/">
+        <img width="80" height="30" alt="人民网" title="人民网" src="http://www.people.com.cn/img/2016people/images/rmw_logo.png">
+      </a>
+    </div>
+  </div><!-- 封面--><div class="one change-item"><div class="main-box"><p>2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。</p></div><img class="build" src="./static/resource/build.png"><img class="mouse" src="./static/resource/mouse.png"></div><div class="two change-item"><div class="title-bar clear"><div class="title-box" font="FZQK.TTF">综述稿</div><div class="main-title" font="FZQK.TTF">新时代振兴需要创新精神</div></div><div class="connent-box"><div class="swiper-box" template="swiperBox"><div class="right float-left swiper-container-pPX8XxuUyIehAAEu"><div class="swiper-wrapper">
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg" width="570" height="330"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div>
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg" width="570" height="330"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div>
+<div class="swiper-slide"><img src="http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg" width="570" height="330"><div class="text">全省“法治进校园”巡讲团首站——晋中</div></div></div><div class="pagination-pPX8XxuUyIehAAEu"></div></div><div class="clear"></div></div><div class="right-text">&nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。2018年9月底习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。</div></div></div><div class="three change-item"><img class="title" src="./static/resource/three-title.png"><p>&nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。</p><embed name="_v_p_781" width="700" height="340" src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf" wmode="opaque" allowfullscreen="true" allowscriptaccess="always" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;amp;skip=1&amp;amp;showid=pvpShowDiv&amp;amp;width=700&amp;amp;height=340&amp;amp;nodeid=216321&amp;amp;cdn=100%2C0%2C0%2C0&amp;amp;sl=5&amp;amp;key=" type="application/x-shockwave-flash"></div><div class="four change-item"><img class="title" src="./static/resource/four-title.png"><p>&nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。</p><embed name="_v_p_781" width="700" height="340" src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf" wmode="opaque" allowfullscreen="true" allowscriptaccess="always" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;amp;skip=1&amp;amp;showid=pvpShowDiv&amp;amp;width=700&amp;amp;height=340&amp;amp;nodeid=216321&amp;amp;cdn=100%2C0%2C0%2C0&amp;amp;sl=5&amp;amp;key=" type="application/x-shockwave-flash"></div><div class="five change-item"><img class="title" src="./static/resource/four-title.png"><p>&nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。</p><embed name="_v_p_781" width="700" height="340" src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf" wmode="opaque" allowfullscreen="true" allowscriptaccess="always" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;amp;skip=1&amp;amp;showid=pvpShowDiv&amp;amp;width=700&amp;amp;height=340&amp;amp;nodeid=216321&amp;amp;cdn=100%2C0%2C0%2C0&amp;amp;sl=5&amp;amp;key=" type="application/x-shockwave-flash"></div><!-- 右侧菜单栏--><div class="menu-box clear"><div class="menu-box-left"><p class="one-button" :tap="one">封面</p><p class="two-button" :tap="two">综述稿</p><p class="three-button" :tap="three">辽宁篇</p><p class="four-button" :tap="four">吉林篇</p><p class="five-button" :tap="five">黑龙江</p></div><div class="menu-box-right"><img class="spot" src="./static/resource/spot.png"></div></div><img class="silk-ribbon" src="./static/resource/silk-ribbon.png"><p class="mt30" template="copyright">人 民 网 版 权 所 有 ，未 经 书 面 授 权 禁 止 使 用<br>Copyright © 1997-2019 by www.people.com.cn. all rights reserved</p></div>
+    <!-- 框架script代码 --><script>"use strict";
+
+// 存储页面基本信息
+var owo = {
+  // 页面默认入口 如果没有设置 则取第一个页面为默认页面
+  entry: "home",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "home": {
+    "data": {
+      "swiperCreated": false
+    },
+    "created": function created() {
+      var _this = this;
+
+      // 判断是否为手机
+      if (_owo.isMobi) {
+        document.body.classList.add('min');
+      }
+
+      owo.tool.animate('fadeInUp', this.query('.silk-ribbon')[0]);
+      owo.tool.animate('fadeInUp', this.query('.build')[0], 800);
+      owo.tool.animate('flash', this.query('.mouse')[0], 1400); // 判断用户是否滑动
+      // console.log(this.$el)
+
+      setTimeout(function () {
+        owo.tool.touch({
+          el: _this.query('.one.change-item')[0],
+          end: function end(event) {
+            if (Math.abs(event.swipe[0]) > 100 || Math.abs(event.swipe[1]) > 100) {
+              if (!_this.data.swiperCreated) {
+                new Swiper('.swiper-container-pPX8XxuUyIehAAEu', {
+                  autoplay: 3000,
+                  pagination: '.pagination-pPX8XxuUyIehAAEu',
+                  paginationClickable: true
+                });
+                _this.data.swiperCreated = true;
+              }
+
+              _this.two();
+            }
+          }
+        });
+      }, 1000);
+    },
+    "clearAndSet": function clearAndSet(key) {
+      var _this2 = this;
+
+      var domList = this.query('.menu-box-left p');
+      var changeItem = this.query('.change-item');
+      domList.forEach(function (element) {
+        element.classList.remove('active');
+      });
+      changeItem.forEach(function (element) {
+        element.style.opacity = 0;
+      });
+      this.query("." + key)[0].style.display = 'block';
+      this.query("." + key + '-button')[0].classList.add('active');
+      setTimeout(function () {
+        _this2.query("." + key)[0].style.opacity = 1;
+      }, 600);
+      setTimeout(function () {
+        changeItem.forEach(function (element) {
+          if (!element.classList.contains(key)) {
+            element.style.display = 'none';
+          }
+        });
+      }, 1200);
+      document.getElementsByClassName('mt30')[0].style.display = 'none';
+    },
+    "one": function one() {
+      console.log('进入封面!');
+      this.query('.menu-box-right .spot')[0].style.top = '10px';
+      this.query('.build')[0].style.opacity = '1';
+      this.query('.one')[0].style.opacity = '1';
+      this.query('.menu-box')[0].style.right = '-100px';
+      this.query('.mouse')[0].style.display = 'block';
+      this.clearAndSet('one');
+    },
+    "two": function two() {
+      console.log('进入综述!');
+      this.query('.build')[0].style.opacity = '0';
+      this.query('.one')[0].style.opacity = '0';
+      this.query('.menu-box')[0].style.right = '4%';
+      this.query('.mouse')[0].style.display = 'none'; // 小圆点移动
+
+      this.query('.menu-box-right .spot')[0].style.top = '60px';
+      this.query('.build')[0].display = 'none';
+      this.clearAndSet('two');
+    },
+    "three": function three() {
+      // 小圆点移动
+      this.query('.menu-box-right .spot')[0].style.top = '110px';
+      this.clearAndSet('three');
+    },
+    "four": function four() {
+      // 小圆点移动
+      this.query('.menu-box-right .spot')[0].style.top = '160px';
+      this.clearAndSet('four');
+    },
+    "five": function five() {
+      // 小圆点移动
+      this.query('.menu-box-right .spot')[0].style.top = '210px';
+      this.clearAndSet('five');
+      document.getElementsByClassName('mt30')[0].style.display = 'block';
+    },
+    "template": {
+      "topBar": {
+        "prop": {
+          "logo": "http://www.people.com.cn/img/2016people/images/rmw_logo.png"
+        }
+      },
+      "swiperBox": {
+        "data": {
+          "swiperBoxList": [{
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }]
+        },
+        "created": function created() {},
+        "prop": {}
+      },
+      "copyright": {
+        "prop": {}
+      }
+    }
+  }
+};</script>
+<!-- 框架script文件 -->
+<script src="./static/js/owo.main.js" type="text/javascript" charset="UTF-8"></script>
+<!-- 调试-热刷新代码 -->
+<script src="./static/js/autoReload.js" type="text/javascript" charset="UTF-8"></script>
+
+    <script src="./static/js/swiper2.7.0.js" type="text/javascript"  charset="UTF-8"></script>
+    <script src="http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js" type="text/javascript"  charset="UTF-8"></script>
+  </body>
+</html>

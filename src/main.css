@@ -1,0 +1,96 @@
+/* 这个文件里写的是全局样式,在各个页面都生效 */
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  user-select: text;
+  min-width: 900px;
+  font: normal 12px/180% "SimSun";
+  -webkit-overflow-scrolling: touch;
+  width: 100%;
+  overflow-x: hidden;
+}
+html {
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-image: url('@|bg.jpg|');
+  width: 100%;
+  height: 100%;
+  background-size: auto 110%;
+}
+body, html, .ox {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  min-height: 800px;
+  position: relative;
+}
+h1, h2, h3, h4, h5, input {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, button, input, textarea, th, td{
+  margin:0;
+  padding:0;
+}
+
+.clear:after {
+  content: "";
+  height: 0;
+  line-height: 0;
+  display: block;
+  visibility: hidden;
+  clear: both;
+}
+
+
+.home.ox {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
+.min .silk-ribbon {
+  width: auto;
+  height: 239px;
+}
+
+.min .build {
+  bottom: 50px;
+}
+
+.min .main-box {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 10%;
+}
+
+.min .mouse {
+  width: 100px;
+  bottom: 20px;
+}
+
+.min .title-bar {
+  height: 80px;
+}
+
+.min .title-bar img {
+  height: 65px;
+  width: auto;
+}
