@@ -4,7 +4,6 @@ body, html {
   padding: 0;
   width: 100%;
   user-select: text;
-  min-width: 900px;
   font: normal 12px/180% "SimSun";
   -webkit-overflow-scrolling: touch;
   width: 100%;
@@ -22,7 +21,6 @@ body, html, .ox {
   padding: 0;
   margin: 0;
   height: 100%;
-  min-height: 800px;
   position: relative;
 }
 h1, h2, h3, h4, h5, input {
@@ -65,8 +63,8 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 
 .min .silk-ribbon {
-  width: auto;
-  height: 239px;
+  width: 100%;
+  height: auto;
 }
 
 .min .build {
@@ -86,11 +84,57 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   bottom: 20px;
 }
 
-.min .title-bar {
-  height: 80px;
+.min .change-item {
+  width: 80%;
+  bottom: unset;
+  top: 40px;
+  height: calc(100% - 40px);
+  overflow: hidden;
 }
 
-.min .title-bar img {
-  height: 65px;
-  width: auto;
+.min [template="home"] .title-box {
+  float: none;
+  width: 155px;
+  height: 52px;
+  background-size: 100% 100%;
+  line-height: 52px;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.min [template="home"] .two .main-title {
+  float: none;
+  font-size: 23px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 0;
+}
+
+.min [template="home"] .two .connent-box {
+  padding-top: 0px;
+}
+.min .swiper-box[template="swiperBox"] {
+  height: auto;
+  width: 100%;
+}
+
+.min .swiper-box[template="swiperBox"] .right {
+  height: 50vw;
+}
+
+.min [template="home"] .two .connent-box .right-text {
+  float: none;
+  margin-left: 0;
+  width: 100%;
+  font-size: 15px;
+  overflow: auto;
+  height: calc(100% - 50vw - 80px);
+}
+
+.min [template="home"] .two .connent-box .swiper-box {
+  margin: 10px 0;
+}
+
+.min .swiper-box[template="swiperBox"] .swiper-wrapper .text {
+  font-size: 12px;
 }

@@ -19,7 +19,7 @@ module.exports = {
     },
     {
       name: 'viewport',
-      content: 'width=900, user-scalable=yes, shrink-to-fit=no',
+      content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no',
     },
     {
       name: 'format-detection',
