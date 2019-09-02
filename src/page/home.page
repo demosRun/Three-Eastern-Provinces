@@ -2,13 +2,13 @@
 .home
   temple(name="topBar", logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png", src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page")
   // 封面
-  .one.change-item
+  .one.change-item(:tap="two")
     .main-box
       p 2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
-    //- 大楼
-    img.build(src="@|build.png|")
-    //- 鼠标悬浮按钮
-    img.mouse(src="@|mouse.png|")
+  //- 大楼
+  img.build(src="@|build.png|")
+  //- 鼠标悬浮按钮
+  img.mouse(src="@|mouse.png|")
   //- 综述页
   .two.change-item
     .title-bar.clear
@@ -17,6 +17,8 @@
     .connent-box
       temple(name="swiperBox", src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page")
       .right-text &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。2018年9月底习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    a.message(href="")
+      img(src="@|message.png|")
   //- 辽宁篇
   .three.change-item
     img.title(src="@|three-title.png|")
@@ -29,7 +31,7 @@
     embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
   //- 黑龙江/封底
   .five.change-item
-    img.title(src="@|four-title.png|")
+    img.title(src="@|five-title.png|")
     p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
     embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
   
@@ -57,6 +59,9 @@
       // 判断是否为手机
       if (_owo.isMobi) {
         document.body.classList.add('min')
+        this.query('.three.change-item .title')[0].src = "@|three-title-min.png|"
+        this.query('.four.change-item .title')[0].src = "@|four-title-min.png|"
+        this.query('.five.change-item .title')[0].src = "@|five-title-min.png|"
       }
       owo.tool.animate('fadeInUp', this.query('.silk-ribbon')[0])
       owo.tool.animate('fadeInUp', this.query('.build')[0], 800)
@@ -67,16 +72,7 @@
         owo.tool.touch({
           el: this.query('.one.change-item')[0],
           end: (event) => {
-            if (Math.abs(event.swipe[0]) > 100 || Math.abs(event.swipe[1]) > 100) {
-              if (!this.data.swiperCreated) {
-                new Swiper('.swiper-container-pPX8XxuUyIehAAEu', {
-                  autoplay: 3000,
-                  pagination: '.pagination-pPX8XxuUyIehAAEu',
-                  paginationClickable: true
-                })
-                this.data.swiperCreated = true
-              }
-              
+            if (Math.abs(event.swipe[0]) > 50 || Math.abs(event.swipe[1]) > 50) {
               this.two()
             }
           }
@@ -87,28 +83,35 @@
       const domList = this.query('.menu-box-left p')
       const changeItem = this.query('.change-item')
       
-      domList.forEach(element => {
+      for (let ind = 0; ind < domList.length; ind++) {
+        const element = domList[ind]
+        
         element.classList.remove('active')
-      })
-      changeItem.forEach(element => {
+      }
+      for (let ind = 0; ind < changeItem.length; ind++) {
+        const element = changeItem[ind]
         element.style.opacity = 0
-      })
+      }
       this.query("." + key)[0].style.display = 'block'
       this.query("." + key + '-button')[0].classList.add('active')
       setTimeout(() => {
         this.query("." + key)[0].style.opacity = 1
       }, 600)
       setTimeout(() => {
-        changeItem.forEach(element => {
+        for (let ind = 0; ind < changeItem.length; ind++) {
+          const element = changeItem[ind]
           if (!element.classList.contains(key)) {
             element.style.display = 'none'
           }
-        })
-      }, 1200)
+        }
+        this.data.isChange = false
+      }, 800)
       document.getElementsByClassName('mt30')[0].style.display = 'none'
     },
     one: function () {
       console.log('进入封面!')
+      if (this.data.isChange == true) return
+      this.data.isChange = true
       this.query('.menu-box-right .spot')[0].style.top = '10px'
       this.query('.build')[0].style.opacity = '1'
       this.query('.one')[0].style.opacity = '1'
@@ -117,8 +120,17 @@
       this.clearAndSet('one')
     },
     two: function () {
+      if (!this.data.swiperCreated) {
+        new Swiper('.swiper-container-pPX8XxuUyIehAAEu', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu',
+          paginationClickable: true
+        })
+        this.data.swiperCreated = true
+      }
       console.log('进入综述!')
-      
+      if (this.data.isChange == true) return
+      this.data.isChange = true
       this.query('.build')[0].style.opacity = '0'
       this.query('.one')[0].style.opacity = '0'
       this.query('.menu-box')[0].style.right = '4%'
@@ -130,16 +142,22 @@
     },
     three: function () {
       // 小圆点移动
+      if (this.data.isChange == true) return
+      this.data.isChange = true
       this.query('.menu-box-right .spot')[0].style.top = '110px'
       this.clearAndSet('three')
     },
     four: function () {
       // 小圆点移动
+      if (this.data.isChange == true) return
+      this.data.isChange = true
       this.query('.menu-box-right .spot')[0].style.top = '160px'
       this.clearAndSet('four')
     },
     five: function () {
       // 小圆点移动
+      if (this.data.isChange == true) return
+      this.data.isChange = true
       this.query('.menu-box-right .spot')[0].style.top = '210px'
       this.clearAndSet('five')
       document.getElementsByClassName('mt30')[0].style.display = 'block'
@@ -166,24 +184,29 @@
   bottom: 0;
   z-index: 3;
   left: 0;
+  user-select: none;
   pointer-events: none;
 }
 .build {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
   bottom: 5%;
   z-index: 2;
+  user-select: none;
+  pointer-events: none;
   transition: opacity 0.5s linear;
 }
 .mouse {
-  position: absolute;
+  position: fixed;
   left: 0;
   right: 0;
-  margin: auto;
+  margin: 0 auto;
   bottom: 2%;
   z-index: 4;
+  user-select: none;
+  pointer-events: none;
 }
 .main-box p {
   color: #01336a;
@@ -276,7 +299,7 @@
       line-height: 28px;
       width: 450px;
       height: 330px;
-      overflow: hidden;
+      overflow: auto;
       float: left;
       margin-left: 40px;
     }
@@ -305,5 +328,11 @@
     color: #01336a;
     margin-bottom: 20px;
   }
+}
+.message {
+  position: absolute;
+  right: 0%;
+  bottom: 0%;
+  display: block;
 }
 </style>

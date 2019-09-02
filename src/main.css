@@ -63,8 +63,8 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 
 .min .silk-ribbon {
-  width: 100%;
-  height: auto;
+  height: 18%;
+  width: auto;
 }
 
 .min .build {
@@ -80,8 +80,8 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 }
 
 .min .mouse {
-  width: 100px;
-  bottom: 20px;
+  width: 13%;
+  bottom: 1%;
 }
 
 .min .change-item {
@@ -137,4 +137,9 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
 
 .min .swiper-box[template="swiperBox"] .swiper-wrapper .text {
   font-size: 12px;
+}
+
+.min .title {
+  width: 100%;
+  margin: 20px 0;
 }

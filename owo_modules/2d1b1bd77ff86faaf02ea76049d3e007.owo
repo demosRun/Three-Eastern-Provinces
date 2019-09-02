@@ -7,9 +7,9 @@
     position: relative;
     font-size: 12px;
     height: 70px;
-    color: #003977;
+    color: white;
     position: absolute;
-    bottom: 10%;
+    bottom: 0;
     z-index: 999;
     width: 100%;
     display: none;
