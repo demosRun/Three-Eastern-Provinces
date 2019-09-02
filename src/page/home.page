@@ -12,29 +12,50 @@
   //- 综述页
   .two.change-item
     .title-bar.clear
-      .title-box(font="FZQK.TTF") 综述稿
-      .main-title(font="FZQK.TTF") 新时代振兴需要创新精神
+      .title-box 综述稿
+      .main-title 新时代振兴需要创新精神
     .connent-box
-      temple(name="swiperBox", src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page")
+      temple(name="swiperBox1", src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page")
       .right-text &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。2018年9月底习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    //- 我要留言
     a.message(href="")
       img(src="@|message.png|")
   //- 辽宁篇
   .three.change-item
-    img.title(src="@|three-title.png|")
+    h1 新时代振兴需要创新精神
+    .title.clear
+      span 辽宁频道
+      
     p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    temple(name="swiperBox2", src="./src/module/swiper.owo")
     embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
+    //- 我要留言
+    a.message(href="")
+      img(src="@|message.png|")
   //- 吉林篇
   .four.change-item
-    img.title(src="@|four-title.png|")
+    h1 新时代振兴需要创新精神
+    .title.clear
+      span 吉林频道
     p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    //- 轮播图
+    temple(name="swiperBox3", src="./src/module/swiper2.owo")
     embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
+    //- 我要留言
+    a.message(href="")
+      img(src="@|message.png|")
   //- 黑龙江/封底
   .five.change-item
-    img.title(src="@|five-title.png|")
+    h1 新时代振兴需要创新精神
+    .title.clear
+      span 黑龙江频道
     p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+    //- 轮播图
+    temple(name="swiperBox4", src="./src/module/swiper3.owo")
     embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
-  
+    //- 我要留言
+    a.message(href="")
+      img(src="@|message.png|")
   // 右侧菜单栏
   .menu-box.clear
     .menu-box-left
@@ -53,7 +74,10 @@
 <script>
   module.exports = {
     data: {
-      swiperCreated: false
+      swiperCreated: false,
+      card2: false,
+      card3: false,
+      card4: false,
     },
     created: function () {
       // 判断是否为手机
@@ -141,6 +165,13 @@
       this.clearAndSet('two')
     },
     three: function () {
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu2').length > 0 && !this.data.card2) {
+        this.data.card2 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu2', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu2',
+          paginationClickable: true
+        })
+      }
       // 小圆点移动
       if (this.data.isChange == true) return
       this.data.isChange = true
@@ -148,6 +179,13 @@
       this.clearAndSet('three')
     },
     four: function () {
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu3').length > 0 && !this.data.card3) {
+        this.data.card3 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu3', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu3',
+          paginationClickable: true
+        })
+      }
       // 小圆点移动
       if (this.data.isChange == true) return
       this.data.isChange = true
@@ -155,6 +193,13 @@
       this.clearAndSet('four')
     },
     five: function () {
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu4').length > 0 && !this.data.card4) {
+        this.data.card3 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu4', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu4',
+          paginationClickable: true
+        })
+      }
       // 小圆点移动
       if (this.data.isChange == true) return
       this.data.isChange = true
@@ -267,6 +312,24 @@
   bottom: 0;
   margin: auto;
   display: none;
+  z-index: 9;
+  overflow: auto;
+  .title {
+    background-image: url('@|title.png|');
+    height: 31px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+    span {
+      color: #003977;
+      float: right;
+      display: block;
+      line-height: 31px;
+      width: 109px;
+      text-align: center;
+      font-size: 15px;
+    }
+  }
 }
 .one {
   display: block;
@@ -318,7 +381,7 @@
 }
 .three, .four, .five {
   width: 702px;
-  height: 586px;
+  height: 590px;
   img {
     margin-bottom: 20px;
   }
@@ -330,9 +393,19 @@
   }
 }
 .message {
-  position: absolute;
-  right: 0%;
-  bottom: 0%;
+  position: fixed;
+  right: 5%;
+  top: 66%;
   display: block;
+  z-index: 99;
+}
+.title-box, .main-title {
+  font-family: "Microsoft YaHei"
+}
+.change-item h1 {
+  color: #003977;
+  font-family: "Microsoft YaHei";
+  font-size: 38px;
+  line-height: 62px;
 }
 </style>

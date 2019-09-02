@@ -1,4 +1,4 @@
-// Mon Sep 02 2019 13:50:43 GMT+0800 (GMT+08:00)
+// Mon Sep 02 2019 15:17:03 GMT+0800 (GMT+08:00)
 
 "use strict";
 
@@ -20,7 +20,10 @@ var owo = {
 owo.script = {
   "home": {
     "data": {
-      "swiperCreated": false
+      "swiperCreated": false,
+      "card2": false,
+      "card3": false,
+      "card4": false
     },
     "created": function created() {
       var _this = this;
@@ -117,21 +120,45 @@ owo.script = {
       this.clearAndSet('two');
     },
     "three": function three() {
-      // 小圆点移动
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu2').length > 0 && !this.data.card2) {
+        this.data.card2 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu2', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu2',
+          paginationClickable: true
+        });
+      } // 小圆点移动
+
+
       if (this.data.isChange == true) return;
       this.data.isChange = true;
       this.query('.menu-box-right .spot')[0].style.top = '110px';
       this.clearAndSet('three');
     },
     "four": function four() {
-      // 小圆点移动
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu3').length > 0 && !this.data.card3) {
+        this.data.card3 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu3', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu3',
+          paginationClickable: true
+        });
+      } // 小圆点移动
+
+
       if (this.data.isChange == true) return;
       this.data.isChange = true;
       this.query('.menu-box-right .spot')[0].style.top = '160px';
       this.clearAndSet('four');
     },
     "five": function five() {
-      // 小圆点移动
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu4').length > 0 && !this.data.card4) {
+        this.data.card3 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu4', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu4',
+          paginationClickable: true
+        });
+      } // 小圆点移动
+
+
       if (this.data.isChange == true) return;
       this.data.isChange = true;
       this.query('.menu-box-right .spot')[0].style.top = '210px';
@@ -143,25 +170,6 @@ owo.script = {
         "prop": {
           "logo": "http://www.people.com.cn/img/2016people/images/rmw_logo.png"
         }
-      },
-      "swiperBox": {
-        "data": {
-          "swiperBoxList": [{
-            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg",
-            "text": "全省“法治进校园”巡讲团首站——晋中"
-          }, {
-            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg",
-            "text": "全省“法治进校园”巡讲团首站——晋中"
-          }, {
-            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg",
-            "text": "全省“法治进校园”巡讲团首站——晋中"
-          }]
-        },
-        "created": function created() {},
-        "prop": {}
-      },
-      "copyright": {
-        "prop": {}
       }
     }
   }
