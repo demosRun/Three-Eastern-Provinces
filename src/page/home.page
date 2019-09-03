@@ -3,6 +3,7 @@
   temple(name="topBar", logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png", src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page")
   // 封面
   .one.change-item(:tap="two")
+    .mini-home
     .main-box
       p 2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
   //- 大楼
@@ -90,6 +91,12 @@
       owo.tool.animate('fadeInUp', this.query('.silk-ribbon')[0])
       owo.tool.animate('fadeInUp', this.query('.build')[0], 800)
       owo.tool.animate('flash', this.query('.mouse')[0], 1400)
+      // 如果是手机则更换图片
+      if (_owo.isMobi) {
+        this.query('.silk-ribbon')[0].src = '@|silk-ribbon-min.png|'
+        this.query('.build')[0].src = '@|build-min.png|'
+        
+      }
       // 判断用户是否滑动
       // console.log(this.$el)
       setTimeout(() => {
@@ -109,7 +116,6 @@
       
       for (let ind = 0; ind < domList.length; ind++) {
         const element = domList[ind]
-        
         element.classList.remove('active')
       }
       for (let ind = 0; ind < changeItem.length; ind++) {

@@ -1,88 +1,1410 @@
-15:17:03.132 INFO  --------------------------- 开始编译 --------------------------- 
-15:17:03.132 INFO  程序运行目录: D:\work\Three Eastern Provinces 
-15:17:03.132 INFO  首次启动! 
-15:17:03.132 INFO  生成版本号: xzgq68klh79 
-15:17:03.143 INFO  清理资源文件夹: D:\work\Three Eastern Provinces\dist\static 
-15:17:03.143 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static 
-15:17:03.144 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static 
-15:17:03.144 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
-15:17:03.144 DEBUG 读取网页标题: 页面 
-15:17:03.144 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
-15:17:03.145 DEBUG 模块 home 因名称重复被重命名为 home0 
-15:17:03.145 INFO  开始处理模块: home 
-15:17:03.537 INFO  开始处理模块: topBar 
-15:17:03.537 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
-15:17:03.544 DEBUG 缓存模板: topBarundefined 
-15:17:03.547 DEBUG 模板home处理用时: 11 毫秒! 
-15:17:03.547 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
-15:17:03.547 INFO  开始处理模块: swiperBox1 
-15:17:03.548 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
-15:17:03.599 DEBUG 缓存模板: swiperBox1undefined 
-15:17:03.601 DEBUG 模板home处理用时: 54 毫秒! 
-15:17:03.601 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
-15:17:03.601 INFO  开始处理模块: swiperBox2 
-15:17:03.616 DEBUG 缓存模板: swiperBox2undefined 
-15:17:03.618 DEBUG 模板home处理用时: 17 毫秒! 
-15:17:03.618 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
-15:17:03.618 INFO  开始处理模块: swiperBox3 
-15:17:03.633 DEBUG 缓存模板: swiperBox3undefined 
-15:17:03.636 DEBUG 模板home处理用时: 18 毫秒! 
-15:17:03.637 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
-15:17:03.637 INFO  开始处理模块: swiperBox4 
-15:17:03.661 DEBUG 缓存模板: swiperBox4undefined 
-15:17:03.662 DEBUG 模板home处理用时: 25 毫秒! 
-15:17:03.663 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
-15:17:03.663 INFO  开始处理模块: copyright 
-15:17:03.663 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
-15:17:03.665 DEBUG 缓存模板: copyrightundefined 
-15:17:03.666 DEBUG 模板home处理用时: 3 毫秒! 
-15:17:03.679 DEBUG 缓存模板: home./src/page/home.page 
-15:17:03.679 DEBUG 模板home处理用时: 535 毫秒! 
-15:17:03.680 INFO  文件夹不存在: D:/work/Three Eastern Provinces/dist/static/resource 
-15:17:03.680 INFO  创建文件夹: D:/work/Three Eastern Provinces/dist/static/resource 
-15:17:03.682 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/one-main.png","D:/work/Three Eastern Provinces/src/resource/title.png","D:/work/Three Eastern Provinces/src/resource/title-box.png"] 
-15:17:03.682 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
-15:17:03.684 DEBUG css中的资源处理完毕! 
-15:17:03.684 DEBUG 使用postcss处理样式，使用了1个插件! 
-15:17:03.734 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static\css 
-15:17:03.734 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static\css 
-15:17:03.734 INFO  开始处理附属css中的资源 
-15:17:03.735 INFO  附属css中的资源处理完毕! 
-15:17:03.735 INFO  开始处理附属css中的资源 
-15:17:03.735 INFO  附属css中的资源处理完毕! 
-15:17:03.735 INFO  处理字体:{} 
-15:17:03.743 INFO  使用postcss处理完毕! 用时: 59 毫秒 
-15:17:03.743 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
-15:17:03.745 INFO  正在处理script! 
-15:17:03.745 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/three-title-min.png","D:/work/Three Eastern Provinces/src/resource/four-title-min.png","D:/work/Three Eastern Provinces/src/resource/five-title-min.png"] 
-15:17:03.745 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
-15:17:03.746 INFO  工程中只有一个页面! 
-15:17:03.748 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static\js 
-15:17:03.748 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static\js 
-15:17:04.505 INFO  js中的资源处理完毕! 
-15:17:04.505 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
-15:17:04.505 DEBUG 外部脚本数量: 2 
-15:17:04.505 DEBUG 处理脚本: swiper2.7.0 
-15:17:04.505 INFO  读取文件: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.min.js 
-15:17:04.505 DEBUG 处理脚本: jquery1.11.0 
-15:17:04.505 DEBUG 网络脚本: jquery1.11.0 
-15:17:04.505 DEBUG 输出scriptData 
-15:17:04.506 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.xzgq68klh79.css 
-15:17:04.506 DEBUG 准备输出html! 
-15:17:04.507 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
-15:17:04.507 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
-15:17:04.507 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
-15:17:04.507 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/build.png","D:/work/Three Eastern Provinces/src/resource/mouse.png","D:/work/Three Eastern Provinces/src/resource/message.png","D:/work/Three Eastern Provinces/src/resource/spot.png","D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png"] 
-15:17:04.507 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
-15:17:04.507 DEBUG 开始美化html 
-15:17:04.589 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\owo.main.xzgq68klh79.css 
-15:17:04.589 INFO  主要逻辑文件写出成功! 
-15:17:04.589 INFO  animation文件写出成功! 
-15:17:04.611 INFO  读取成功: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.css 
-15:17:04.617 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
-15:17:04.617 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/bg.jpg"] 
-15:17:04.617 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
-15:17:04.788 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\swiper2.7.0.css 
-15:17:04.797 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
-15:17:04.797 INFO  读取成功: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.min.js 
-15:17:04.807 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\js\swiper2.7.0.js 
+16:24:49.738 INFO  --------------------------- 开始编译 --------------------------- 
+16:24:49.738 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:24:49.738 INFO  首次启动! 
+16:24:49.738 INFO  生成版本号: kthiu53rgw9 
+16:24:49.738 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist 
+16:24:49.738 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist 
+16:24:49.739 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static 
+16:24:49.739 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static 
+16:24:49.739 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:24:49.739 DEBUG 读取网页标题: 页面 
+16:24:49.739 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:24:49.740 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:24:49.740 INFO  开始处理模块: home 
+16:24:51.260 INFO  开始处理模块: topBar 
+16:24:51.260 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:24:51.267 DEBUG 缓存模板: topBarundefined 
+16:24:51.270 DEBUG 模板home处理用时: 11 毫秒! 
+16:24:51.271 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+16:24:51.271 INFO  开始处理模块: swiperBox1 
+16:24:51.271 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:24:51.410 DEBUG 缓存模板: swiperBox1undefined 
+16:24:51.413 DEBUG 模板home处理用时: 142 毫秒! 
+16:24:51.414 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+16:24:51.414 INFO  开始处理模块: swiperBox2 
+16:24:51.437 DEBUG 缓存模板: swiperBox2undefined 
+16:24:51.439 DEBUG 模板home处理用时: 25 毫秒! 
+16:24:51.440 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+16:24:51.440 INFO  开始处理模块: swiperBox3 
+16:24:51.466 DEBUG 缓存模板: swiperBox3undefined 
+16:24:51.468 DEBUG 模板home处理用时: 28 毫秒! 
+16:24:51.469 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+16:24:51.469 INFO  开始处理模块: swiperBox4 
+16:24:51.495 DEBUG 缓存模板: swiperBox4undefined 
+16:24:51.496 DEBUG 模板home处理用时: 27 毫秒! 
+16:24:51.497 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:24:51.497 INFO  开始处理模块: copyright 
+16:24:51.497 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:24:51.500 DEBUG 缓存模板: copyrightundefined 
+16:24:51.501 DEBUG 模板home处理用时: 4 毫秒! 
+16:24:51.515 DEBUG 缓存模板: home./src/page/home.page 
+16:24:51.515 DEBUG 模板home处理用时: 1775 毫秒! 
+16:24:51.550 INFO  文件夹不存在: D:/work/Three Eastern Provinces/dist/static/resource 
+16:24:51.550 INFO  创建文件夹: D:/work/Three Eastern Provinces/dist/static/resource 
+16:24:51.551 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/one-main.png","D:/work/Three Eastern Provinces/src/resource/title.png","D:/work/Three Eastern Provinces/src/resource/title-box.png"] 
+16:24:51.551 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:24:51.560 DEBUG css中的资源处理完毕! 
+16:24:51.560 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:24:51.624 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static\css 
+16:24:51.636 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static\css 
+16:24:51.636 INFO  开始处理附属css中的资源 
+16:24:51.637 INFO  附属css中的资源处理完毕! 
+16:24:51.637 INFO  开始处理附属css中的资源 
+16:24:51.637 INFO  附属css中的资源处理完毕! 
+16:24:51.637 INFO  处理字体:{} 
+16:24:52.413 INFO  使用postcss处理完毕! 用时: 853 毫秒 
+16:24:52.413 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:24:52.414 INFO  正在处理script! 
+16:24:52.415 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/three-title-min.png","D:/work/Three Eastern Provinces/src/resource/four-title-min.png","D:/work/Three Eastern Provinces/src/resource/five-title-min.png"] 
+16:24:52.415 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:24:52.420 INFO  工程中只有一个页面! 
+16:24:52.444 INFO  文件夹不存在: D:\work\Three Eastern Provinces\dist\static\js 
+16:24:52.444 INFO  创建文件夹: D:\work\Three Eastern Provinces\dist\static\js 
+16:24:52.444 DEBUG 选择将js合并到html中! 
+16:24:55.534 INFO  js中的资源处理完毕! 
+16:24:55.534 INFO  读取文件: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+16:24:55.534 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:24:55.535 DEBUG 外部脚本数量: 2 
+16:24:55.535 DEBUG 处理脚本: swiper2.7.0 
+16:24:55.535 INFO  读取文件: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.min.js 
+16:24:55.535 DEBUG 处理脚本: jquery1.11.0 
+16:24:55.535 DEBUG 网络脚本: jquery1.11.0 
+16:24:55.535 DEBUG 输出scriptData 
+16:24:55.548 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:24:55.549 DEBUG 准备输出html! 
+16:24:55.549 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:24:55.549 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:24:55.549 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:24:55.549 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/build.png","D:/work/Three Eastern Provinces/src/resource/mouse.png","D:/work/Three Eastern Provinces/src/resource/message.png","D:/work/Three Eastern Provinces/src/resource/spot.png","D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png"] 
+16:24:55.549 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:24:55.568 INFO  发送重新页面需要刷新命令! 
+16:24:55.591 INFO  animation文件写出成功! 
+16:24:55.592 INFO  主要逻辑文件写出成功! 
+16:24:55.593 INFO  读取成功: C:\Users\PG\Documents\GitHub\PG\core\debug\autoReload.js 
+16:24:55.786 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+16:24:55.787 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/bg.jpg"] 
+16:24:55.787 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:24:55.862 INFO  读取成功: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.css 
+16:24:55.951 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\js\autoReload.js 
+16:24:56.008 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+16:24:56.009 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\swiper2.7.0.css 
+16:24:56.019 INFO  读取成功: D:\work\Three Eastern Provinces\src\resource\idangerous.swiper2.7.0.min.js 
+16:24:56.034 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\js\swiper2.7.0.js 
+16:29:46.601 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+16:29:46.602 INFO  --------------------------- 开始编译 --------------------------- 
+16:29:46.602 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:29:46.602 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+16:29:46.602 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:29:46.602 DEBUG 读取网页标题: 页面 
+16:29:46.602 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:29:46.603 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:29:46.603 INFO  开始处理模块: home 
+16:29:46.659 INFO  开始处理模块: topBar 
+16:29:46.659 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:29:46.680 DEBUG 缓存模板: topBarundefined 
+16:29:46.681 DEBUG 模板home处理用时: 22 毫秒! 
+16:29:46.682 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+16:29:46.682 INFO  开始处理模块: swiperBox1 
+16:29:46.682 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:29:46.696 DEBUG 缓存模板: swiperBox1undefined 
+16:29:46.698 DEBUG 模板home处理用时: 16 毫秒! 
+16:29:46.698 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+16:29:46.698 INFO  开始处理模块: swiperBox2 
+16:29:46.711 DEBUG 缓存模板: swiperBox2undefined 
+16:29:46.712 DEBUG 模板home处理用时: 14 毫秒! 
+16:29:46.713 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+16:29:46.713 INFO  开始处理模块: swiperBox3 
+16:29:46.729 DEBUG 缓存模板: swiperBox3undefined 
+16:29:46.731 DEBUG 模板home处理用时: 18 毫秒! 
+16:29:46.732 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+16:29:46.732 INFO  开始处理模块: swiperBox4 
+16:29:46.744 DEBUG 缓存模板: swiperBox4undefined 
+16:29:46.745 DEBUG 模板home处理用时: 13 毫秒! 
+16:29:46.746 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:29:46.746 INFO  开始处理模块: copyright 
+16:29:46.746 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:29:46.748 DEBUG 缓存模板: copyrightundefined 
+16:29:46.748 DEBUG 模板home处理用时: 2 毫秒! 
+16:29:46.760 DEBUG 缓存模板: home./src/page/home.page 
+16:29:46.760 DEBUG 模板home处理用时: 158 毫秒! 
+16:29:46.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:29:46.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+16:29:46.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:29:46.761 DEBUG css中的资源处理完毕! 
+16:29:46.761 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:29:46.773 INFO  开始处理附属css中的资源 
+16:29:46.773 INFO  附属css中的资源处理完毕! 
+16:29:46.773 INFO  处理字体:{} 
+16:29:46.778 INFO  使用postcss处理完毕! 用时: 17 毫秒 
+16:29:46.778 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:29:46.779 INFO  正在处理script! 
+16:29:46.779 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+16:29:46.779 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+16:29:46.779 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+16:29:46.779 INFO  工程中只有一个页面! 
+16:29:46.782 DEBUG 选择将js合并到html中! 
+16:29:46.871 INFO  js中的资源处理完毕! 
+16:29:46.872 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:29:46.872 DEBUG 外部脚本数量: 2 
+16:29:46.872 DEBUG 处理脚本: swiper2.7.0 
+16:29:46.872 DEBUG 处理脚本: jquery1.11.0 
+16:29:46.872 DEBUG 网络脚本: jquery1.11.0 
+16:29:46.872 DEBUG 输出scriptData 
+16:29:46.873 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:29:46.873 DEBUG 准备输出html! 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:29:46.873 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:29:46.875 INFO  发送重新页面需要刷新命令! 
+16:29:46.889 INFO  主要逻辑文件写出成功! 
+16:29:46.889 INFO  animation文件写出成功! 
+16:29:46.890 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+16:29:46.890 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+16:29:46.894 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+16:39:44.619 INFO  file change: D:\work\Three Eastern Provinces\src\page\home.page 
+16:39:44.620 INFO  --------------------------- 开始编译 --------------------------- 
+16:39:44.620 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:39:44.620 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\page\home.page 
+16:39:44.620 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:39:44.620 DEBUG 读取网页标题: 页面 
+16:39:44.620 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:39:44.620 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:39:44.620 INFO  开始处理模块: home 
+16:39:44.672 INFO  开始处理模块: topBar 
+16:39:44.673 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:39:44.677 DEBUG 缓存模板: topBarundefined 
+16:39:44.678 DEBUG 模板home处理用时: 6 毫秒! 
+16:39:44.678 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+16:39:44.678 INFO  开始处理模块: swiperBox1 
+16:39:44.679 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:39:44.692 DEBUG 缓存模板: swiperBox1undefined 
+16:39:44.693 DEBUG 模板home处理用时: 15 毫秒! 
+16:39:44.694 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+16:39:44.694 INFO  开始处理模块: swiperBox2 
+16:39:44.708 DEBUG 缓存模板: swiperBox2undefined 
+16:39:44.710 DEBUG 模板home处理用时: 16 毫秒! 
+16:39:44.711 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+16:39:44.711 INFO  开始处理模块: swiperBox3 
+16:39:44.723 DEBUG 缓存模板: swiperBox3undefined 
+16:39:44.725 DEBUG 模板home处理用时: 14 毫秒! 
+16:39:44.726 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+16:39:44.726 INFO  开始处理模块: swiperBox4 
+16:39:44.737 DEBUG 缓存模板: swiperBox4undefined 
+16:39:44.739 DEBUG 模板home处理用时: 13 毫秒! 
+16:39:44.739 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:39:44.739 INFO  开始处理模块: copyright 
+16:39:44.739 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:39:44.742 DEBUG 缓存模板: copyrightundefined 
+16:39:44.743 DEBUG 模板home处理用时: 4 毫秒! 
+16:39:44.752 DEBUG 缓存模板: home./src/page/home.page 
+16:39:44.752 DEBUG 模板home处理用时: 132 毫秒! 
+16:39:44.753 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:39:44.753 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+16:39:44.753 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:39:44.753 DEBUG css中的资源处理完毕! 
+16:39:44.753 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:39:44.765 INFO  处理字体:{} 
+16:39:44.768 INFO  使用postcss处理完毕! 用时: 15 毫秒 
+16:39:44.768 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:39:44.768 INFO  正在处理script! 
+16:39:44.768 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+16:39:44.768 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+16:39:44.768 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+16:39:44.768 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png"] 
+16:39:44.768 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:39:44.769 INFO  工程中只有一个页面! 
+16:39:44.770 DEBUG 选择将js合并到html中! 
+16:39:44.835 INFO  js中的资源处理完毕! 
+16:39:44.835 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:39:44.835 DEBUG 外部脚本数量: 2 
+16:39:44.835 DEBUG 处理脚本: swiper2.7.0 
+16:39:44.835 DEBUG 处理脚本: jquery1.11.0 
+16:39:44.835 DEBUG 网络脚本: jquery1.11.0 
+16:39:44.835 DEBUG 输出scriptData 
+16:39:44.835 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:39:44.835 DEBUG 准备输出html! 
+16:39:44.835 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:39:44.835 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:39:44.836 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:39:44.836 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:39:44.836 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:39:44.836 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:39:44.836 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:39:44.836 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:39:44.837 INFO  发送重新页面需要刷新命令! 
+16:39:44.851 INFO  animation文件写出成功! 
+16:39:44.851 INFO  主要逻辑文件写出成功! 
+16:40:23.920 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+16:40:23.921 INFO  --------------------------- 开始编译 --------------------------- 
+16:40:23.921 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:40:23.921 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+16:40:23.921 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:40:23.921 DEBUG 读取网页标题: 页面 
+16:40:23.921 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:40:23.921 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:40:23.921 INFO  开始处理模块: home 
+16:40:23.963 INFO  开始处理模块: topBar 
+16:40:23.963 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:40:23.968 DEBUG 缓存模板: topBarundefined 
+16:40:23.968 DEBUG 模板home处理用时: 5 毫秒! 
+16:40:23.969 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+16:40:23.969 INFO  开始处理模块: swiperBox1 
+16:40:23.969 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:40:23.982 DEBUG 缓存模板: swiperBox1undefined 
+16:40:23.983 DEBUG 模板home处理用时: 14 毫秒! 
+16:40:23.984 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+16:40:23.984 INFO  开始处理模块: swiperBox2 
+16:40:23.996 DEBUG 缓存模板: swiperBox2undefined 
+16:40:23.997 DEBUG 模板home处理用时: 13 毫秒! 
+16:40:23.997 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+16:40:23.997 INFO  开始处理模块: swiperBox3 
+16:40:24.010 DEBUG 缓存模板: swiperBox3undefined 
+16:40:24.012 DEBUG 模板home处理用时: 15 毫秒! 
+16:40:24.013 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+16:40:24.013 INFO  开始处理模块: swiperBox4 
+16:40:24.023 DEBUG 缓存模板: swiperBox4undefined 
+16:40:24.024 DEBUG 模板home处理用时: 11 毫秒! 
+16:40:24.024 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:40:24.024 INFO  开始处理模块: copyright 
+16:40:24.025 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:40:24.027 DEBUG 缓存模板: copyrightundefined 
+16:40:24.028 DEBUG 模板home处理用时: 4 毫秒! 
+16:40:24.038 DEBUG 缓存模板: home./src/page/home.page 
+16:40:24.038 DEBUG 模板home处理用时: 117 毫秒! 
+16:40:24.039 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:40:24.039 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+16:40:24.039 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:40:24.039 DEBUG css中的资源处理完毕! 
+16:40:24.039 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:40:24.049 INFO  开始处理附属css中的资源 
+16:40:24.049 INFO  附属css中的资源处理完毕! 
+16:40:24.049 INFO  处理字体:{} 
+16:40:24.053 INFO  使用postcss处理完毕! 用时: 14 毫秒 
+16:40:24.053 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:40:24.053 INFO  正在处理script! 
+16:40:24.054 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+16:40:24.054 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+16:40:24.054 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+16:40:24.054 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+16:40:24.054 INFO  工程中只有一个页面! 
+16:40:24.057 DEBUG 选择将js合并到html中! 
+16:40:24.131 INFO  js中的资源处理完毕! 
+16:40:24.131 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:40:24.131 DEBUG 外部脚本数量: 2 
+16:40:24.131 DEBUG 处理脚本: swiper2.7.0 
+16:40:24.131 DEBUG 处理脚本: jquery1.11.0 
+16:40:24.131 DEBUG 网络脚本: jquery1.11.0 
+16:40:24.131 DEBUG 输出scriptData 
+16:40:24.132 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:40:24.132 DEBUG 准备输出html! 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:40:24.132 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:40:24.133 INFO  发送重新页面需要刷新命令! 
+16:40:24.152 INFO  主要逻辑文件写出成功! 
+16:40:24.153 INFO  animation文件写出成功! 
+16:40:24.154 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+16:40:24.155 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+16:40:24.159 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+16:43:39.899 INFO  file change: D:\work\Three Eastern Provinces\src\page\home.page 
+16:43:39.900 INFO  --------------------------- 开始编译 --------------------------- 
+16:43:39.900 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:43:39.900 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\page\home.page 
+16:43:39.900 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:43:39.900 DEBUG 读取网页标题: 页面 
+16:43:39.900 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:43:39.900 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:43:39.900 INFO  开始处理模块: home 
+16:43:39.942 INFO  开始处理模块: topBar 
+16:43:39.942 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:43:39.945 DEBUG 缓存模板: topBarundefined 
+16:43:39.946 DEBUG 模板home处理用时: 4 毫秒! 
+16:43:39.946 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+16:43:39.946 INFO  开始处理模块: swiperBox1 
+16:43:39.946 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:43:39.959 DEBUG 缓存模板: swiperBox1undefined 
+16:43:39.961 DEBUG 模板home处理用时: 15 毫秒! 
+16:43:39.962 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+16:43:39.962 INFO  开始处理模块: swiperBox2 
+16:43:39.974 DEBUG 缓存模板: swiperBox2undefined 
+16:43:39.976 DEBUG 模板home处理用时: 14 毫秒! 
+16:43:39.976 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+16:43:39.976 INFO  开始处理模块: swiperBox3 
+16:43:39.988 DEBUG 缓存模板: swiperBox3undefined 
+16:43:39.989 DEBUG 模板home处理用时: 13 毫秒! 
+16:43:39.990 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+16:43:39.990 INFO  开始处理模块: swiperBox4 
+16:43:39.999 DEBUG 缓存模板: swiperBox4undefined 
+16:43:40.001 DEBUG 模板home处理用时: 11 毫秒! 
+16:43:40.001 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:43:40.001 INFO  开始处理模块: copyright 
+16:43:40.001 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:43:40.004 DEBUG 缓存模板: copyrightundefined 
+16:43:40.004 DEBUG 模板home处理用时: 3 毫秒! 
+16:43:40.013 DEBUG 缓存模板: home./src/page/home.page 
+16:43:40.013 DEBUG 模板home处理用时: 113 毫秒! 
+16:43:40.014 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:43:40.014 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+16:43:40.014 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:43:40.014 DEBUG css中的资源处理完毕! 
+16:43:40.014 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:43:40.026 INFO  处理字体:{} 
+16:43:40.029 INFO  使用postcss处理完毕! 用时: 15 毫秒 
+16:43:40.029 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:43:40.029 INFO  正在处理script! 
+16:43:40.029 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+16:43:40.029 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+16:43:40.029 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+16:43:40.029 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+16:43:40.029 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/build-min.png"] 
+16:43:40.029 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:43:40.030 INFO  工程中只有一个页面! 
+16:43:40.032 DEBUG 选择将js合并到html中! 
+16:43:40.095 INFO  js中的资源处理完毕! 
+16:43:40.095 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:43:40.095 DEBUG 外部脚本数量: 2 
+16:43:40.095 DEBUG 处理脚本: swiper2.7.0 
+16:43:40.095 DEBUG 处理脚本: jquery1.11.0 
+16:43:40.095 DEBUG 网络脚本: jquery1.11.0 
+16:43:40.095 DEBUG 输出scriptData 
+16:43:40.096 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:43:40.096 DEBUG 准备输出html! 
+16:43:40.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:43:40.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:43:40.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:43:40.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:43:40.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:43:40.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:43:40.097 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:43:40.097 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:43:40.107 INFO  发送重新页面需要刷新命令! 
+16:43:40.131 INFO  主要逻辑文件写出成功! 
+16:43:40.131 INFO  animation文件写出成功! 
+16:44:23.045 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+16:44:23.046 INFO  --------------------------- 开始编译 --------------------------- 
+16:44:23.046 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:44:23.046 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+16:44:23.046 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:44:23.046 DEBUG 读取网页标题: 页面 
+16:44:23.046 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:44:23.046 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:44:23.046 INFO  开始处理模块: home 
+16:44:23.102 INFO  开始处理模块: topBar 
+16:44:23.102 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:44:23.106 DEBUG 缓存模板: topBarundefined 
+16:44:23.107 DEBUG 模板home处理用时: 5 毫秒! 
+16:44:23.108 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+16:44:23.108 INFO  开始处理模块: swiperBox1 
+16:44:23.108 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:44:23.125 DEBUG 缓存模板: swiperBox1undefined 
+16:44:23.127 DEBUG 模板home处理用时: 19 毫秒! 
+16:44:23.128 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+16:44:23.128 INFO  开始处理模块: swiperBox2 
+16:44:23.139 DEBUG 缓存模板: swiperBox2undefined 
+16:44:23.141 DEBUG 模板home处理用时: 13 毫秒! 
+16:44:23.141 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+16:44:23.141 INFO  开始处理模块: swiperBox3 
+16:44:23.153 DEBUG 缓存模板: swiperBox3undefined 
+16:44:23.155 DEBUG 模板home处理用时: 14 毫秒! 
+16:44:23.155 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+16:44:23.155 INFO  开始处理模块: swiperBox4 
+16:44:23.165 DEBUG 缓存模板: swiperBox4undefined 
+16:44:23.166 DEBUG 模板home处理用时: 11 毫秒! 
+16:44:23.166 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:44:23.166 INFO  开始处理模块: copyright 
+16:44:23.167 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:44:23.169 DEBUG 缓存模板: copyrightundefined 
+16:44:23.169 DEBUG 模板home处理用时: 3 毫秒! 
+16:44:23.179 DEBUG 缓存模板: home./src/page/home.page 
+16:44:23.179 DEBUG 模板home处理用时: 133 毫秒! 
+16:44:23.180 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:44:23.180 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+16:44:23.180 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:44:23.180 DEBUG css中的资源处理完毕! 
+16:44:23.180 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:44:23.200 INFO  开始处理附属css中的资源 
+16:44:23.200 INFO  附属css中的资源处理完毕! 
+16:44:23.200 INFO  处理字体:{} 
+16:44:23.205 INFO  使用postcss处理完毕! 用时: 25 毫秒 
+16:44:23.205 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:44:23.205 INFO  正在处理script! 
+16:44:23.205 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+16:44:23.205 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+16:44:23.205 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+16:44:23.205 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+16:44:23.205 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+16:44:23.206 INFO  工程中只有一个页面! 
+16:44:23.208 DEBUG 选择将js合并到html中! 
+16:44:23.278 INFO  js中的资源处理完毕! 
+16:44:23.278 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:44:23.278 DEBUG 外部脚本数量: 2 
+16:44:23.278 DEBUG 处理脚本: swiper2.7.0 
+16:44:23.278 DEBUG 处理脚本: jquery1.11.0 
+16:44:23.278 DEBUG 网络脚本: jquery1.11.0 
+16:44:23.278 DEBUG 输出scriptData 
+16:44:23.279 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:44:23.279 DEBUG 准备输出html! 
+16:44:23.279 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:44:23.279 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:44:23.279 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:44:23.279 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:44:23.279 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:44:23.279 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:44:23.279 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:44:23.280 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:44:23.281 INFO  发送重新页面需要刷新命令! 
+16:44:23.306 INFO  主要逻辑文件写出成功! 
+16:44:23.306 INFO  animation文件写出成功! 
+16:44:23.306 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+16:44:23.306 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+16:44:23.311 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+16:59:16.656 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+16:59:16.657 INFO  --------------------------- 开始编译 --------------------------- 
+16:59:16.657 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+16:59:16.657 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+16:59:16.657 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+16:59:16.657 DEBUG 读取网页标题: 页面 
+16:59:16.657 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+16:59:16.657 DEBUG 模块 home 因名称重复被重命名为 home0 
+16:59:16.657 INFO  开始处理模块: home 
+16:59:16.706 INFO  开始处理模块: topBar 
+16:59:16.706 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+16:59:16.710 DEBUG 缓存模板: topBarundefined 
+16:59:16.712 DEBUG 模板home处理用时: 7 毫秒! 
+16:59:16.712 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+16:59:16.712 INFO  开始处理模块: swiperBox1 
+16:59:16.712 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+16:59:16.725 DEBUG 缓存模板: swiperBox1undefined 
+16:59:16.727 DEBUG 模板home处理用时: 15 毫秒! 
+16:59:16.728 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+16:59:16.728 INFO  开始处理模块: swiperBox2 
+16:59:16.741 DEBUG 缓存模板: swiperBox2undefined 
+16:59:16.743 DEBUG 模板home处理用时: 15 毫秒! 
+16:59:16.743 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+16:59:16.743 INFO  开始处理模块: swiperBox3 
+16:59:16.756 DEBUG 缓存模板: swiperBox3undefined 
+16:59:16.757 DEBUG 模板home处理用时: 14 毫秒! 
+16:59:16.758 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+16:59:16.758 INFO  开始处理模块: swiperBox4 
+16:59:16.771 DEBUG 缓存模板: swiperBox4undefined 
+16:59:16.774 DEBUG 模板home处理用时: 16 毫秒! 
+16:59:16.774 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+16:59:16.774 INFO  开始处理模块: copyright 
+16:59:16.774 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+16:59:16.776 DEBUG 缓存模板: copyrightundefined 
+16:59:16.776 DEBUG 模板home处理用时: 2 毫秒! 
+16:59:16.786 DEBUG 缓存模板: home./src/page/home.page 
+16:59:16.786 DEBUG 模板home处理用时: 129 毫秒! 
+16:59:16.786 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+16:59:16.786 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+16:59:16.786 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+16:59:16.786 DEBUG css中的资源处理完毕! 
+16:59:16.786 DEBUG 使用postcss处理样式，使用了1个插件! 
+16:59:16.798 INFO  开始处理附属css中的资源 
+16:59:16.798 INFO  附属css中的资源处理完毕! 
+16:59:16.798 INFO  处理字体:{} 
+16:59:16.801 INFO  使用postcss处理完毕! 用时: 15 毫秒 
+16:59:16.801 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+16:59:16.801 INFO  正在处理script! 
+16:59:16.801 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+16:59:16.801 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+16:59:16.801 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+16:59:16.801 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+16:59:16.801 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+16:59:16.802 INFO  工程中只有一个页面! 
+16:59:16.804 DEBUG 选择将js合并到html中! 
+16:59:16.877 INFO  js中的资源处理完毕! 
+16:59:16.877 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+16:59:16.877 DEBUG 外部脚本数量: 2 
+16:59:16.877 DEBUG 处理脚本: swiper2.7.0 
+16:59:16.877 DEBUG 处理脚本: jquery1.11.0 
+16:59:16.877 DEBUG 网络脚本: jquery1.11.0 
+16:59:16.877 DEBUG 输出scriptData 
+16:59:16.878 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+16:59:16.878 DEBUG 准备输出html! 
+16:59:16.878 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+16:59:16.878 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+16:59:16.879 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:59:16.879 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:59:16.879 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:59:16.879 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+16:59:16.879 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+16:59:16.879 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+16:59:16.881 INFO  发送重新页面需要刷新命令! 
+16:59:16.902 INFO  主要逻辑文件写出成功! 
+16:59:16.902 INFO  animation文件写出成功! 
+16:59:16.902 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+16:59:16.903 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+16:59:16.903 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/one-main-min.png"] 
+16:59:16.903 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+16:59:16.906 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:00:39.633 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:00:39.634 INFO  --------------------------- 开始编译 --------------------------- 
+17:00:39.634 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:00:39.634 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:00:39.634 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:00:39.634 DEBUG 读取网页标题: 页面 
+17:00:39.634 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:00:39.634 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:00:39.634 INFO  开始处理模块: home 
+17:00:39.679 INFO  开始处理模块: topBar 
+17:00:39.680 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:00:39.686 DEBUG 缓存模板: topBarundefined 
+17:00:39.686 DEBUG 模板home处理用时: 7 毫秒! 
+17:00:39.687 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:00:39.687 INFO  开始处理模块: swiperBox1 
+17:00:39.687 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:00:39.701 DEBUG 缓存模板: swiperBox1undefined 
+17:00:39.702 DEBUG 模板home处理用时: 15 毫秒! 
+17:00:39.703 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:00:39.703 INFO  开始处理模块: swiperBox2 
+17:00:39.717 DEBUG 缓存模板: swiperBox2undefined 
+17:00:39.719 DEBUG 模板home处理用时: 16 毫秒! 
+17:00:39.719 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:00:39.719 INFO  开始处理模块: swiperBox3 
+17:00:39.732 DEBUG 缓存模板: swiperBox3undefined 
+17:00:39.734 DEBUG 模板home处理用时: 15 毫秒! 
+17:00:39.734 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:00:39.734 INFO  开始处理模块: swiperBox4 
+17:00:39.743 DEBUG 缓存模板: swiperBox4undefined 
+17:00:39.745 DEBUG 模板home处理用时: 11 毫秒! 
+17:00:39.745 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:00:39.745 INFO  开始处理模块: copyright 
+17:00:39.745 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:00:39.748 DEBUG 缓存模板: copyrightundefined 
+17:00:39.748 DEBUG 模板home处理用时: 3 毫秒! 
+17:00:39.757 DEBUG 缓存模板: home./src/page/home.page 
+17:00:39.757 DEBUG 模板home处理用时: 123 毫秒! 
+17:00:39.757 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:00:39.757 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:00:39.757 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:00:39.757 DEBUG css中的资源处理完毕! 
+17:00:39.757 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:00:39.767 INFO  开始处理附属css中的资源 
+17:00:39.767 INFO  附属css中的资源处理完毕! 
+17:00:39.767 INFO  处理字体:{} 
+17:00:39.770 INFO  使用postcss处理完毕! 用时: 13 毫秒 
+17:00:39.770 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:00:39.770 INFO  正在处理script! 
+17:00:39.770 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:00:39.770 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:00:39.770 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:00:39.770 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:00:39.770 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:00:39.771 INFO  工程中只有一个页面! 
+17:00:39.773 DEBUG 选择将js合并到html中! 
+17:00:39.842 INFO  js中的资源处理完毕! 
+17:00:39.842 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:00:39.842 DEBUG 外部脚本数量: 2 
+17:00:39.842 DEBUG 处理脚本: swiper2.7.0 
+17:00:39.842 DEBUG 处理脚本: jquery1.11.0 
+17:00:39.842 DEBUG 网络脚本: jquery1.11.0 
+17:00:39.842 DEBUG 输出scriptData 
+17:00:39.843 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:00:39.843 DEBUG 准备输出html! 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:00:39.844 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:00:39.845 INFO  发送重新页面需要刷新命令! 
+17:00:39.862 INFO  主要逻辑文件写出成功! 
+17:00:39.862 INFO  animation文件写出成功! 
+17:00:39.865 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:00:39.866 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:00:39.866 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:00:39.870 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:02:44.125 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:02:44.126 INFO  --------------------------- 开始编译 --------------------------- 
+17:02:44.126 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:02:44.126 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:02:44.126 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:02:44.126 DEBUG 读取网页标题: 页面 
+17:02:44.126 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:02:44.126 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:02:44.126 INFO  开始处理模块: home 
+17:02:44.177 INFO  开始处理模块: topBar 
+17:02:44.177 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:02:44.179 DEBUG 缓存模板: topBarundefined 
+17:02:44.180 DEBUG 模板home处理用时: 3 毫秒! 
+17:02:44.182 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:02:44.182 INFO  开始处理模块: swiperBox1 
+17:02:44.182 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:02:44.194 DEBUG 缓存模板: swiperBox1undefined 
+17:02:44.196 DEBUG 模板home处理用时: 15 毫秒! 
+17:02:44.197 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:02:44.197 INFO  开始处理模块: swiperBox2 
+17:02:44.212 DEBUG 缓存模板: swiperBox2undefined 
+17:02:44.213 DEBUG 模板home处理用时: 16 毫秒! 
+17:02:44.214 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:02:44.214 INFO  开始处理模块: swiperBox3 
+17:02:44.227 DEBUG 缓存模板: swiperBox3undefined 
+17:02:44.229 DEBUG 模板home处理用时: 15 毫秒! 
+17:02:44.229 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:02:44.229 INFO  开始处理模块: swiperBox4 
+17:02:44.242 DEBUG 缓存模板: swiperBox4undefined 
+17:02:44.244 DEBUG 模板home处理用时: 15 毫秒! 
+17:02:44.244 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:02:44.244 INFO  开始处理模块: copyright 
+17:02:44.244 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:02:44.246 DEBUG 缓存模板: copyrightundefined 
+17:02:44.246 DEBUG 模板home处理用时: 2 毫秒! 
+17:02:44.256 DEBUG 缓存模板: home./src/page/home.page 
+17:02:44.256 DEBUG 模板home处理用时: 130 毫秒! 
+17:02:44.257 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:02:44.257 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:02:44.257 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:02:44.257 DEBUG css中的资源处理完毕! 
+17:02:44.257 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:02:44.267 INFO  开始处理附属css中的资源 
+17:02:44.267 INFO  附属css中的资源处理完毕! 
+17:02:44.267 INFO  处理字体:{} 
+17:02:44.270 INFO  使用postcss处理完毕! 用时: 13 毫秒 
+17:02:44.270 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:02:44.272 INFO  正在处理script! 
+17:02:44.272 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:02:44.272 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:02:44.272 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:02:44.272 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:02:44.272 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:02:44.273 INFO  工程中只有一个页面! 
+17:02:44.274 DEBUG 选择将js合并到html中! 
+17:02:44.332 INFO  js中的资源处理完毕! 
+17:02:44.332 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:02:44.332 DEBUG 外部脚本数量: 2 
+17:02:44.332 DEBUG 处理脚本: swiper2.7.0 
+17:02:44.332 DEBUG 处理脚本: jquery1.11.0 
+17:02:44.332 DEBUG 网络脚本: jquery1.11.0 
+17:02:44.332 DEBUG 输出scriptData 
+17:02:44.333 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:02:44.333 DEBUG 准备输出html! 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:02:44.333 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:02:44.334 INFO  发送重新页面需要刷新命令! 
+17:02:44.349 INFO  主要逻辑文件写出成功! 
+17:02:44.351 INFO  animation文件写出成功! 
+17:02:44.351 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:02:44.352 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:02:44.352 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:02:44.357 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:04:09.845 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:04:09.846 INFO  --------------------------- 开始编译 --------------------------- 
+17:04:09.846 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:04:09.846 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:04:09.846 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:04:09.846 DEBUG 读取网页标题: 页面 
+17:04:09.846 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:04:09.846 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:04:09.846 INFO  开始处理模块: home 
+17:04:09.894 INFO  开始处理模块: topBar 
+17:04:09.894 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:04:09.898 DEBUG 缓存模板: topBarundefined 
+17:04:09.899 DEBUG 模板home处理用时: 5 毫秒! 
+17:04:09.899 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:04:09.899 INFO  开始处理模块: swiperBox1 
+17:04:09.899 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:04:09.911 DEBUG 缓存模板: swiperBox1undefined 
+17:04:09.913 DEBUG 模板home处理用时: 14 毫秒! 
+17:04:09.913 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:04:09.913 INFO  开始处理模块: swiperBox2 
+17:04:09.925 DEBUG 缓存模板: swiperBox2undefined 
+17:04:09.927 DEBUG 模板home处理用时: 14 毫秒! 
+17:04:09.927 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:04:09.927 INFO  开始处理模块: swiperBox3 
+17:04:09.940 DEBUG 缓存模板: swiperBox3undefined 
+17:04:09.941 DEBUG 模板home处理用时: 14 毫秒! 
+17:04:09.941 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:04:09.941 INFO  开始处理模块: swiperBox4 
+17:04:09.954 DEBUG 缓存模板: swiperBox4undefined 
+17:04:09.955 DEBUG 模板home处理用时: 14 毫秒! 
+17:04:09.955 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:04:09.955 INFO  开始处理模块: copyright 
+17:04:09.955 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:04:09.957 DEBUG 缓存模板: copyrightundefined 
+17:04:09.958 DEBUG 模板home处理用时: 3 毫秒! 
+17:04:09.968 DEBUG 缓存模板: home./src/page/home.page 
+17:04:09.968 DEBUG 模板home处理用时: 122 毫秒! 
+17:04:09.969 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:04:09.969 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:04:09.969 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:04:09.969 DEBUG css中的资源处理完毕! 
+17:04:09.969 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:04:09.980 INFO  开始处理附属css中的资源 
+17:04:09.980 INFO  附属css中的资源处理完毕! 
+17:04:09.980 INFO  处理字体:{} 
+17:04:09.983 INFO  使用postcss处理完毕! 用时: 14 毫秒 
+17:04:09.983 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:04:09.984 INFO  正在处理script! 
+17:04:09.984 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:04:09.984 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:04:09.984 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:04:09.984 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:04:09.984 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:04:09.984 INFO  工程中只有一个页面! 
+17:04:09.986 DEBUG 选择将js合并到html中! 
+17:04:10.042 INFO  js中的资源处理完毕! 
+17:04:10.042 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:04:10.042 DEBUG 外部脚本数量: 2 
+17:04:10.042 DEBUG 处理脚本: swiper2.7.0 
+17:04:10.042 DEBUG 处理脚本: jquery1.11.0 
+17:04:10.042 DEBUG 网络脚本: jquery1.11.0 
+17:04:10.042 DEBUG 输出scriptData 
+17:04:10.043 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:04:10.043 DEBUG 准备输出html! 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:04:10.043 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:04:10.044 INFO  发送重新页面需要刷新命令! 
+17:04:10.064 INFO  主要逻辑文件写出成功! 
+17:04:10.064 INFO  animation文件写出成功! 
+17:04:10.065 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:04:10.065 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:04:10.065 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:04:10.068 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:08:56.974 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:08:56.975 INFO  --------------------------- 开始编译 --------------------------- 
+17:08:56.975 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:08:56.975 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:08:56.975 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:08:56.975 DEBUG 读取网页标题: 页面 
+17:08:56.975 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:08:56.975 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:08:56.975 INFO  开始处理模块: home 
+17:08:57.029 INFO  开始处理模块: topBar 
+17:08:57.029 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:08:57.031 DEBUG 缓存模板: topBarundefined 
+17:08:57.033 DEBUG 模板home处理用时: 4 毫秒! 
+17:08:57.034 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:08:57.034 INFO  开始处理模块: swiperBox1 
+17:08:57.034 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:08:57.049 DEBUG 缓存模板: swiperBox1undefined 
+17:08:57.051 DEBUG 模板home处理用时: 17 毫秒! 
+17:08:57.051 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:08:57.051 INFO  开始处理模块: swiperBox2 
+17:08:57.063 DEBUG 缓存模板: swiperBox2undefined 
+17:08:57.064 DEBUG 模板home处理用时: 13 毫秒! 
+17:08:57.064 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:08:57.064 INFO  开始处理模块: swiperBox3 
+17:08:57.077 DEBUG 缓存模板: swiperBox3undefined 
+17:08:57.078 DEBUG 模板home处理用时: 14 毫秒! 
+17:08:57.079 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:08:57.079 INFO  开始处理模块: swiperBox4 
+17:08:57.091 DEBUG 缓存模板: swiperBox4undefined 
+17:08:57.092 DEBUG 模板home处理用时: 13 毫秒! 
+17:08:57.092 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:08:57.092 INFO  开始处理模块: copyright 
+17:08:57.093 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:08:57.095 DEBUG 缓存模板: copyrightundefined 
+17:08:57.095 DEBUG 模板home处理用时: 3 毫秒! 
+17:08:57.105 DEBUG 缓存模板: home./src/page/home.page 
+17:08:57.105 DEBUG 模板home处理用时: 130 毫秒! 
+17:08:57.106 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:08:57.106 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:08:57.106 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:08:57.106 DEBUG css中的资源处理完毕! 
+17:08:57.106 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:08:57.120 INFO  开始处理附属css中的资源 
+17:08:57.120 INFO  附属css中的资源处理完毕! 
+17:08:57.120 INFO  处理字体:{} 
+17:08:57.122 INFO  使用postcss处理完毕! 用时: 16 毫秒 
+17:08:57.122 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:08:57.123 INFO  正在处理script! 
+17:08:57.123 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:08:57.123 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:08:57.123 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:08:57.123 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:08:57.123 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:08:57.123 INFO  工程中只有一个页面! 
+17:08:57.125 DEBUG 选择将js合并到html中! 
+17:08:57.211 INFO  js中的资源处理完毕! 
+17:08:57.211 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:08:57.211 DEBUG 外部脚本数量: 2 
+17:08:57.211 DEBUG 处理脚本: swiper2.7.0 
+17:08:57.211 DEBUG 处理脚本: jquery1.11.0 
+17:08:57.211 DEBUG 网络脚本: jquery1.11.0 
+17:08:57.211 DEBUG 输出scriptData 
+17:08:57.212 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:08:57.212 DEBUG 准备输出html! 
+17:08:57.212 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:08:57.212 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:08:57.212 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:08:57.212 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:08:57.212 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:08:57.212 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:08:57.213 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:08:57.213 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:08:57.214 INFO  发送重新页面需要刷新命令! 
+17:08:57.235 INFO  主要逻辑文件写出成功! 
+17:08:57.236 INFO  animation文件写出成功! 
+17:08:57.237 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:08:57.237 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:08:57.237 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:08:57.240 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:17:09.622 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:17:09.623 INFO  --------------------------- 开始编译 --------------------------- 
+17:17:09.623 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:17:09.623 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:17:09.623 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:17:09.623 DEBUG 读取网页标题: 页面 
+17:17:09.623 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:17:09.623 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:17:09.623 INFO  开始处理模块: home 
+17:17:09.673 INFO  开始处理模块: topBar 
+17:17:09.673 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:17:09.678 DEBUG 缓存模板: topBarundefined 
+17:17:09.679 DEBUG 模板home处理用时: 6 毫秒! 
+17:17:09.680 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:17:09.680 INFO  开始处理模块: swiperBox1 
+17:17:09.680 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:17:09.694 DEBUG 缓存模板: swiperBox1undefined 
+17:17:09.695 DEBUG 模板home处理用时: 15 毫秒! 
+17:17:09.695 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:17:09.695 INFO  开始处理模块: swiperBox2 
+17:17:09.708 DEBUG 缓存模板: swiperBox2undefined 
+17:17:09.709 DEBUG 模板home处理用时: 14 毫秒! 
+17:17:09.709 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:17:09.709 INFO  开始处理模块: swiperBox3 
+17:17:09.721 DEBUG 缓存模板: swiperBox3undefined 
+17:17:09.723 DEBUG 模板home处理用时: 14 毫秒! 
+17:17:09.724 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:17:09.724 INFO  开始处理模块: swiperBox4 
+17:17:09.733 DEBUG 缓存模板: swiperBox4undefined 
+17:17:09.734 DEBUG 模板home处理用时: 11 毫秒! 
+17:17:09.735 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:17:09.735 INFO  开始处理模块: copyright 
+17:17:09.735 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:17:09.738 DEBUG 缓存模板: copyrightundefined 
+17:17:09.738 DEBUG 模板home处理用时: 3 毫秒! 
+17:17:09.747 DEBUG 缓存模板: home./src/page/home.page 
+17:17:09.747 DEBUG 模板home处理用时: 124 毫秒! 
+17:17:09.748 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:17:09.748 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:17:09.748 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:17:09.748 DEBUG css中的资源处理完毕! 
+17:17:09.748 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:17:09.758 INFO  开始处理附属css中的资源 
+17:17:09.758 INFO  附属css中的资源处理完毕! 
+17:17:09.758 INFO  处理字体:{} 
+17:17:09.760 INFO  使用postcss处理完毕! 用时: 12 毫秒 
+17:17:09.760 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:17:09.761 INFO  正在处理script! 
+17:17:09.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:17:09.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:17:09.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:17:09.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:17:09.761 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:17:09.762 INFO  工程中只有一个页面! 
+17:17:09.764 DEBUG 选择将js合并到html中! 
+17:17:09.826 INFO  js中的资源处理完毕! 
+17:17:09.826 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:17:09.826 DEBUG 外部脚本数量: 2 
+17:17:09.826 DEBUG 处理脚本: swiper2.7.0 
+17:17:09.826 DEBUG 处理脚本: jquery1.11.0 
+17:17:09.826 DEBUG 网络脚本: jquery1.11.0 
+17:17:09.826 DEBUG 输出scriptData 
+17:17:09.827 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:17:09.827 DEBUG 准备输出html! 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:17:09.827 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:17:09.829 INFO  发送重新页面需要刷新命令! 
+17:17:09.850 INFO  主要逻辑文件写出成功! 
+17:17:09.850 INFO  animation文件写出成功! 
+17:17:09.851 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:17:09.851 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:17:09.851 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:17:09.854 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:17:42.953 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:17:42.954 INFO  --------------------------- 开始编译 --------------------------- 
+17:17:42.954 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:17:42.954 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:17:42.954 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:17:42.954 DEBUG 读取网页标题: 页面 
+17:17:42.954 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:17:42.954 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:17:42.954 INFO  开始处理模块: home 
+17:17:43.000 INFO  开始处理模块: topBar 
+17:17:43.000 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:17:43.003 DEBUG 缓存模板: topBarundefined 
+17:17:43.004 DEBUG 模板home处理用时: 4 毫秒! 
+17:17:43.004 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:17:43.004 INFO  开始处理模块: swiperBox1 
+17:17:43.004 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:17:43.019 DEBUG 缓存模板: swiperBox1undefined 
+17:17:43.022 DEBUG 模板home处理用时: 18 毫秒! 
+17:17:43.022 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:17:43.022 INFO  开始处理模块: swiperBox2 
+17:17:43.035 DEBUG 缓存模板: swiperBox2undefined 
+17:17:43.037 DEBUG 模板home处理用时: 15 毫秒! 
+17:17:43.037 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:17:43.037 INFO  开始处理模块: swiperBox3 
+17:17:43.051 DEBUG 缓存模板: swiperBox3undefined 
+17:17:43.052 DEBUG 模板home处理用时: 15 毫秒! 
+17:17:43.053 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:17:43.053 INFO  开始处理模块: swiperBox4 
+17:17:43.064 DEBUG 缓存模板: swiperBox4undefined 
+17:17:43.065 DEBUG 模板home处理用时: 12 毫秒! 
+17:17:43.066 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:17:43.066 INFO  开始处理模块: copyright 
+17:17:43.066 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:17:43.069 DEBUG 缓存模板: copyrightundefined 
+17:17:43.070 DEBUG 模板home处理用时: 4 毫秒! 
+17:17:43.080 DEBUG 缓存模板: home./src/page/home.page 
+17:17:43.080 DEBUG 模板home处理用时: 126 毫秒! 
+17:17:43.081 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:17:43.081 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:17:43.081 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:17:43.081 DEBUG css中的资源处理完毕! 
+17:17:43.081 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:17:43.091 INFO  开始处理附属css中的资源 
+17:17:43.091 INFO  附属css中的资源处理完毕! 
+17:17:43.091 INFO  处理字体:{} 
+17:17:43.094 INFO  使用postcss处理完毕! 用时: 13 毫秒 
+17:17:43.094 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:17:43.095 INFO  正在处理script! 
+17:17:43.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:17:43.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:17:43.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:17:43.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:17:43.096 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:17:43.096 INFO  工程中只有一个页面! 
+17:17:43.098 DEBUG 选择将js合并到html中! 
+17:17:43.164 INFO  js中的资源处理完毕! 
+17:17:43.164 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:17:43.164 DEBUG 外部脚本数量: 2 
+17:17:43.164 DEBUG 处理脚本: swiper2.7.0 
+17:17:43.164 DEBUG 处理脚本: jquery1.11.0 
+17:17:43.164 DEBUG 网络脚本: jquery1.11.0 
+17:17:43.164 DEBUG 输出scriptData 
+17:17:43.165 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:17:43.165 DEBUG 准备输出html! 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:17:43.165 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:17:43.167 INFO  发送重新页面需要刷新命令! 
+17:17:43.186 INFO  主要逻辑文件写出成功! 
+17:17:43.186 INFO  animation文件写出成功! 
+17:17:43.186 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:17:43.186 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:17:43.186 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:17:43.189 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:21:50.273 INFO  file change: D:\work\Three Eastern Provinces\src\page\home.page 
+17:21:50.273 INFO  --------------------------- 开始编译 --------------------------- 
+17:21:50.273 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:21:50.273 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\page\home.page 
+17:21:50.273 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:21:50.274 DEBUG 读取网页标题: 页面 
+17:21:50.274 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:21:50.274 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:21:50.274 INFO  开始处理模块: home 
+17:21:50.319 INFO  开始处理模块: topBar 
+17:21:50.320 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:21:50.324 DEBUG 缓存模板: topBarundefined 
+17:21:50.325 DEBUG 模板home处理用时: 6 毫秒! 
+17:21:50.325 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:21:50.325 INFO  开始处理模块: swiperBox1 
+17:21:50.326 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:21:50.340 DEBUG 缓存模板: swiperBox1undefined 
+17:21:50.341 DEBUG 模板home处理用时: 16 毫秒! 
+17:21:50.343 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:21:50.343 INFO  开始处理模块: swiperBox2 
+17:21:50.355 DEBUG 缓存模板: swiperBox2undefined 
+17:21:50.357 DEBUG 模板home处理用时: 14 毫秒! 
+17:21:50.357 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:21:50.357 INFO  开始处理模块: swiperBox3 
+17:21:50.368 DEBUG 缓存模板: swiperBox3undefined 
+17:21:50.370 DEBUG 模板home处理用时: 13 毫秒! 
+17:21:50.371 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:21:50.371 INFO  开始处理模块: swiperBox4 
+17:21:50.381 DEBUG 缓存模板: swiperBox4undefined 
+17:21:50.382 DEBUG 模板home处理用时: 11 毫秒! 
+17:21:50.383 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:21:50.383 INFO  开始处理模块: copyright 
+17:21:50.383 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:21:50.387 DEBUG 缓存模板: copyrightundefined 
+17:21:50.387 DEBUG 模板home处理用时: 4 毫秒! 
+17:21:50.396 DEBUG 缓存模板: home./src/page/home.page 
+17:21:50.396 DEBUG 模板home处理用时: 122 毫秒! 
+17:21:50.397 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:21:50.397 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:21:50.397 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:21:50.397 DEBUG css中的资源处理完毕! 
+17:21:50.397 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:21:50.407 INFO  处理字体:{} 
+17:21:50.410 INFO  使用postcss处理完毕! 用时: 13 毫秒 
+17:21:50.410 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:21:50.410 INFO  正在处理script! 
+17:21:50.411 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:21:50.411 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:21:50.411 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:21:50.411 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:21:50.411 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:21:50.413 INFO  工程中只有一个页面! 
+17:21:50.414 DEBUG 选择将js合并到html中! 
+17:21:50.477 INFO  js中的资源处理完毕! 
+17:21:50.477 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:21:50.477 DEBUG 外部脚本数量: 2 
+17:21:50.477 DEBUG 处理脚本: swiper2.7.0 
+17:21:50.477 DEBUG 处理脚本: jquery1.11.0 
+17:21:50.477 DEBUG 网络脚本: jquery1.11.0 
+17:21:50.477 DEBUG 输出scriptData 
+17:21:50.477 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:21:50.478 DEBUG 准备输出html! 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:21:50.478 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:21:50.481 INFO  发送重新页面需要刷新命令! 
+17:21:50.501 INFO  主要逻辑文件写出成功! 
+17:21:50.501 INFO  animation文件写出成功! 
+17:26:13.673 INFO  file change: D:\work\Three Eastern Provinces\src\resource\bg-min.jpg 
+17:26:13.674 INFO  --------------------------- 开始编译 --------------------------- 
+17:26:13.674 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:26:13.674 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\resource\bg-min.jpg 
+17:26:13.674 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:26:13.674 DEBUG 读取网页标题: 页面 
+17:26:13.674 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:26:13.674 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:26:13.674 INFO  开始处理模块: home 
+17:26:13.721 INFO  开始处理模块: topBar 
+17:26:13.722 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:26:13.726 DEBUG 缓存模板: topBarundefined 
+17:26:13.726 DEBUG 模板home处理用时: 5 毫秒! 
+17:26:13.727 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:26:13.727 INFO  开始处理模块: swiperBox1 
+17:26:13.727 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:26:13.742 DEBUG 缓存模板: swiperBox1undefined 
+17:26:13.743 DEBUG 模板home处理用时: 16 毫秒! 
+17:26:13.744 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:26:13.744 INFO  开始处理模块: swiperBox2 
+17:26:13.757 DEBUG 缓存模板: swiperBox2undefined 
+17:26:13.758 DEBUG 模板home处理用时: 14 毫秒! 
+17:26:13.759 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:26:13.759 INFO  开始处理模块: swiperBox3 
+17:26:13.770 DEBUG 缓存模板: swiperBox3undefined 
+17:26:13.772 DEBUG 模板home处理用时: 13 毫秒! 
+17:26:13.773 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:26:13.773 INFO  开始处理模块: swiperBox4 
+17:26:13.783 DEBUG 缓存模板: swiperBox4undefined 
+17:26:13.785 DEBUG 模板home处理用时: 12 毫秒! 
+17:26:13.785 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:26:13.785 INFO  开始处理模块: copyright 
+17:26:13.785 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:26:13.787 DEBUG 缓存模板: copyrightundefined 
+17:26:13.787 DEBUG 模板home处理用时: 2 毫秒! 
+17:26:13.796 DEBUG 缓存模板: home./src/page/home.page 
+17:26:13.796 DEBUG 模板home处理用时: 122 毫秒! 
+17:26:13.796 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:26:13.796 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:26:13.797 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:26:13.797 DEBUG css中的资源处理完毕! 
+17:26:13.797 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:26:13.815 INFO  处理字体:{} 
+17:26:13.817 INFO  使用postcss处理完毕! 用时: 20 毫秒 
+17:26:13.817 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:26:13.818 INFO  正在处理script! 
+17:26:13.818 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:26:13.818 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:26:13.818 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:26:13.818 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:26:13.818 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:26:13.818 INFO  工程中只有一个页面! 
+17:26:13.820 DEBUG 选择将js合并到html中! 
+17:26:13.886 INFO  js中的资源处理完毕! 
+17:26:13.886 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:26:13.886 DEBUG 外部脚本数量: 2 
+17:26:13.886 DEBUG 处理脚本: swiper2.7.0 
+17:26:13.886 DEBUG 处理脚本: jquery1.11.0 
+17:26:13.886 DEBUG 网络脚本: jquery1.11.0 
+17:26:13.886 DEBUG 输出scriptData 
+17:26:13.886 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:26:13.886 DEBUG 准备输出html! 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:26:13.887 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:26:13.889 INFO  发送重新页面需要刷新命令! 
+17:26:13.911 INFO  animation文件写出成功! 
+17:26:13.912 INFO  主要逻辑文件写出成功! 
+17:26:48.148 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:26:48.149 INFO  --------------------------- 开始编译 --------------------------- 
+17:26:48.149 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:26:48.149 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:26:48.149 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:26:48.149 DEBUG 读取网页标题: 页面 
+17:26:48.149 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:26:48.149 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:26:48.149 INFO  开始处理模块: home 
+17:26:48.195 INFO  开始处理模块: topBar 
+17:26:48.195 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:26:48.197 DEBUG 缓存模板: topBarundefined 
+17:26:48.198 DEBUG 模板home处理用时: 3 毫秒! 
+17:26:48.198 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:26:48.198 INFO  开始处理模块: swiperBox1 
+17:26:48.198 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:26:48.212 DEBUG 缓存模板: swiperBox1undefined 
+17:26:48.214 DEBUG 模板home处理用时: 16 毫秒! 
+17:26:48.214 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:26:48.214 INFO  开始处理模块: swiperBox2 
+17:26:48.225 DEBUG 缓存模板: swiperBox2undefined 
+17:26:48.226 DEBUG 模板home处理用时: 12 毫秒! 
+17:26:48.226 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:26:48.226 INFO  开始处理模块: swiperBox3 
+17:26:48.238 DEBUG 缓存模板: swiperBox3undefined 
+17:26:48.239 DEBUG 模板home处理用时: 13 毫秒! 
+17:26:48.239 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:26:48.239 INFO  开始处理模块: swiperBox4 
+17:26:48.250 DEBUG 缓存模板: swiperBox4undefined 
+17:26:48.252 DEBUG 模板home处理用时: 13 毫秒! 
+17:26:48.252 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:26:48.252 INFO  开始处理模块: copyright 
+17:26:48.252 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:26:48.254 DEBUG 缓存模板: copyrightundefined 
+17:26:48.255 DEBUG 模板home处理用时: 3 毫秒! 
+17:26:48.264 DEBUG 缓存模板: home./src/page/home.page 
+17:26:48.264 DEBUG 模板home处理用时: 115 毫秒! 
+17:26:48.264 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:26:48.264 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:26:48.264 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:26:48.264 DEBUG css中的资源处理完毕! 
+17:26:48.264 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:26:48.273 INFO  开始处理附属css中的资源 
+17:26:48.274 INFO  附属css中的资源处理完毕! 
+17:26:48.274 INFO  处理字体:{} 
+17:26:48.276 INFO  使用postcss处理完毕! 用时: 12 毫秒 
+17:26:48.276 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:26:48.276 INFO  正在处理script! 
+17:26:48.276 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:26:48.276 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:26:48.276 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:26:48.276 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:26:48.276 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:26:48.277 INFO  工程中只有一个页面! 
+17:26:48.279 DEBUG 选择将js合并到html中! 
+17:26:48.335 INFO  js中的资源处理完毕! 
+17:26:48.335 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:26:48.335 DEBUG 外部脚本数量: 2 
+17:26:48.335 DEBUG 处理脚本: swiper2.7.0 
+17:26:48.335 DEBUG 处理脚本: jquery1.11.0 
+17:26:48.335 DEBUG 网络脚本: jquery1.11.0 
+17:26:48.335 DEBUG 输出scriptData 
+17:26:48.336 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:26:48.336 DEBUG 准备输出html! 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:26:48.336 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:26:48.338 INFO  发送重新页面需要刷新命令! 
+17:26:48.367 INFO  主要逻辑文件写出成功! 
+17:26:48.367 INFO  animation文件写出成功! 
+17:26:48.368 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:26:48.368 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:26:48.368 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:26:48.371 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:27:28.036 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:27:28.036 INFO  --------------------------- 开始编译 --------------------------- 
+17:27:28.036 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:27:28.036 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:27:28.036 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:27:28.036 DEBUG 读取网页标题: 页面 
+17:27:28.036 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:27:28.037 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:27:28.037 INFO  开始处理模块: home 
+17:27:28.085 INFO  开始处理模块: topBar 
+17:27:28.085 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:27:28.090 DEBUG 缓存模板: topBarundefined 
+17:27:28.092 DEBUG 模板home处理用时: 7 毫秒! 
+17:27:28.094 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:27:28.094 INFO  开始处理模块: swiperBox1 
+17:27:28.094 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:27:28.109 DEBUG 缓存模板: swiperBox1undefined 
+17:27:28.111 DEBUG 模板home处理用时: 17 毫秒! 
+17:27:28.112 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:27:28.112 INFO  开始处理模块: swiperBox2 
+17:27:28.123 DEBUG 缓存模板: swiperBox2undefined 
+17:27:28.125 DEBUG 模板home处理用时: 13 毫秒! 
+17:27:28.125 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:27:28.125 INFO  开始处理模块: swiperBox3 
+17:27:28.138 DEBUG 缓存模板: swiperBox3undefined 
+17:27:28.140 DEBUG 模板home处理用时: 15 毫秒! 
+17:27:28.140 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:27:28.140 INFO  开始处理模块: swiperBox4 
+17:27:28.153 DEBUG 缓存模板: swiperBox4undefined 
+17:27:28.154 DEBUG 模板home处理用时: 14 毫秒! 
+17:27:28.154 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:27:28.154 INFO  开始处理模块: copyright 
+17:27:28.154 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:27:28.157 DEBUG 缓存模板: copyrightundefined 
+17:27:28.158 DEBUG 模板home处理用时: 4 毫秒! 
+17:27:28.169 DEBUG 缓存模板: home./src/page/home.page 
+17:27:28.169 DEBUG 模板home处理用时: 132 毫秒! 
+17:27:28.170 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:27:28.170 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:27:28.170 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:27:28.170 DEBUG css中的资源处理完毕! 
+17:27:28.170 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:27:28.179 INFO  开始处理附属css中的资源 
+17:27:28.179 INFO  附属css中的资源处理完毕! 
+17:27:28.179 INFO  处理字体:{} 
+17:27:28.182 INFO  使用postcss处理完毕! 用时: 12 毫秒 
+17:27:28.182 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:27:28.183 INFO  正在处理script! 
+17:27:28.183 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:27:28.183 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:27:28.183 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:27:28.183 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:27:28.183 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:27:28.184 INFO  工程中只有一个页面! 
+17:27:28.185 DEBUG 选择将js合并到html中! 
+17:27:28.249 INFO  js中的资源处理完毕! 
+17:27:28.249 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:27:28.249 DEBUG 外部脚本数量: 2 
+17:27:28.249 DEBUG 处理脚本: swiper2.7.0 
+17:27:28.249 DEBUG 处理脚本: jquery1.11.0 
+17:27:28.249 DEBUG 网络脚本: jquery1.11.0 
+17:27:28.249 DEBUG 输出scriptData 
+17:27:28.249 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:27:28.249 DEBUG 准备输出html! 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:27:28.250 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:27:28.251 INFO  发送重新页面需要刷新命令! 
+17:27:28.266 INFO  主要逻辑文件写出成功! 
+17:27:28.266 INFO  animation文件写出成功! 
+17:27:28.267 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:27:28.267 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:27:28.267 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:27:28.267 DEBUG 处理资源: ["D:/work/Three Eastern Provinces/src/resource/bg-min.jpg"] 
+17:27:28.267 DEBUG 资源目录: D:/work/Three Eastern Provinces/dist/static/resource 
+17:27:28.271 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
+17:28:11.590 INFO  file change: D:\work\Three Eastern Provinces\src\main.css 
+17:28:11.591 INFO  --------------------------- 开始编译 --------------------------- 
+17:28:11.591 INFO  程序运行目录: D:\work\Three Eastern Provinces 
+17:28:11.591 INFO  刷新模式,变化目录: D:\work\Three Eastern Provinces\src\main.css 
+17:28:11.591 INFO  读取模板文件: C:\Users\PG\Documents\GitHub\PG\lib\index.html 
+17:28:11.591 DEBUG 读取网页标题: 页面 
+17:28:11.591 DEBUG 处理页面源信息: [{"http-equiv":"content-type","content":"text/html; charset=UTF-8"},{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, min-cardimum-scale=1.0, user-scalable=no"},{"name":"format-detection","content":"telephone=no, email=no"},{"name":"apple-mobile-web-app-capable","content":"yes"},{"name":"apple-mobile-web-app-status-bar-style","content":"white"},{"name":"renderer","content":"webkit"},{"http-equiv":"X-UA-Compatible","content":"IE=edge,chrome=1"},{"name":"filetype","content":"1"},{"name":"publishedtype","content":"1"},{"name":"pagetype","content":"2"},{"name":"screen-orientation","content":"landscape"},{"name":"x5-orientation","content":"landscape"},{"name":"full-screen","content":"yes"},{"name":"x5-fullscreen","content":"true"},{"name":"browsermode","content":"application"},{"name":"x5-page-mode","content":"app"}] 
+17:28:11.592 DEBUG 模块 home 因名称重复被重命名为 home0 
+17:28:11.592 INFO  开始处理模块: home 
+17:28:11.639 INFO  开始处理模块: topBar 
+17:28:11.639 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\8bee3bb5d56af40cae0d9812234de8f1.owo 
+17:28:11.642 DEBUG 缓存模板: topBarundefined 
+17:28:11.643 DEBUG 模板home处理用时: 4 毫秒! 
+17:28:11.644 DEBUG 模块 swiperBox1 因名称重复被重命名为 swiperBox10 
+17:28:11.644 INFO  开始处理模块: swiperBox1 
+17:28:11.644 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\3bee8d4bf2382a60e4fed798a9c7bc90.owo 
+17:28:11.657 DEBUG 缓存模板: swiperBox1undefined 
+17:28:11.659 DEBUG 模板home处理用时: 16 毫秒! 
+17:28:11.659 DEBUG 模块 swiperBox2 因名称重复被重命名为 swiperBox20 
+17:28:11.659 INFO  开始处理模块: swiperBox2 
+17:28:11.671 DEBUG 缓存模板: swiperBox2undefined 
+17:28:11.672 DEBUG 模板home处理用时: 13 毫秒! 
+17:28:11.672 DEBUG 模块 swiperBox3 因名称重复被重命名为 swiperBox30 
+17:28:11.672 INFO  开始处理模块: swiperBox3 
+17:28:11.685 DEBUG 缓存模板: swiperBox3undefined 
+17:28:11.686 DEBUG 模板home处理用时: 14 毫秒! 
+17:28:11.686 DEBUG 模块 swiperBox4 因名称重复被重命名为 swiperBox40 
+17:28:11.686 INFO  开始处理模块: swiperBox4 
+17:28:11.701 DEBUG 缓存模板: swiperBox4undefined 
+17:28:11.702 DEBUG 模板home处理用时: 16 毫秒! 
+17:28:11.703 DEBUG 模块 copyright 因名称重复被重命名为 copyright0 
+17:28:11.703 INFO  开始处理模块: copyright 
+17:28:11.703 DEBUG 使用文件缓存:D:\work\Three Eastern Provinces\owo_modules\2d1b1bd77ff86faaf02ea76049d3e007.owo 
+17:28:11.705 DEBUG 缓存模板: copyrightundefined 
+17:28:11.705 DEBUG 模板home处理用时: 3 毫秒! 
+17:28:11.717 DEBUG 缓存模板: home./src/page/home.page 
+17:28:11.717 DEBUG 模板home处理用时: 125 毫秒! 
+17:28:11.718 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main.png 
+17:28:11.718 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title.png 
+17:28:11.718 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/title-box.png 
+17:28:11.718 DEBUG css中的资源处理完毕! 
+17:28:11.718 DEBUG 使用postcss处理样式，使用了1个插件! 
+17:28:11.730 INFO  开始处理附属css中的资源 
+17:28:11.730 INFO  附属css中的资源处理完毕! 
+17:28:11.730 INFO  处理字体:{} 
+17:28:11.735 INFO  使用postcss处理完毕! 用时: 17 毫秒 
+17:28:11.735 DEBUG 需要经过特殊处理的css: [["[template=\"topBar\"] .title-bar:",".title-bar[template=\"topBar\"]:"],["[template=\"topBar\"] .title-bar ",".title-bar[template=\"topBar\"] "],["[template=\"topBar\"] .title-bar{",".title-bar[template=\"topBar\"]{"],["[template=\"topBar\"] div:","div[template=\"topBar\"]:"],["[template=\"topBar\"] div ","div[template=\"topBar\"] "],["[template=\"topBar\"] div{","div[template=\"topBar\"]{"],["[template=\"swiperBox1\"] .swiper-box:",".swiper-box[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] .swiper-box ",".swiper-box[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] .swiper-box{",".swiper-box[template=\"swiperBox1\"]{"],["[template=\"swiperBox1\"] div:","div[template=\"swiperBox1\"]:"],["[template=\"swiperBox1\"] div ","div[template=\"swiperBox1\"] "],["[template=\"swiperBox1\"] div{","div[template=\"swiperBox1\"]{"],["[template=\"swiperBox2\"] .swiper-box:",".swiper-box[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] .swiper-box ",".swiper-box[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] .swiper-box{",".swiper-box[template=\"swiperBox2\"]{"],["[template=\"swiperBox2\"] div:","div[template=\"swiperBox2\"]:"],["[template=\"swiperBox2\"] div ","div[template=\"swiperBox2\"] "],["[template=\"swiperBox2\"] div{","div[template=\"swiperBox2\"]{"],["[template=\"swiperBox3\"] .swiper-box:",".swiper-box[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] .swiper-box ",".swiper-box[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] .swiper-box{",".swiper-box[template=\"swiperBox3\"]{"],["[template=\"swiperBox3\"] div:","div[template=\"swiperBox3\"]:"],["[template=\"swiperBox3\"] div ","div[template=\"swiperBox3\"] "],["[template=\"swiperBox3\"] div{","div[template=\"swiperBox3\"]{"],["[template=\"swiperBox4\"] .swiper-box:",".swiper-box[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] .swiper-box ",".swiper-box[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] .swiper-box{",".swiper-box[template=\"swiperBox4\"]{"],["[template=\"swiperBox4\"] div:","div[template=\"swiperBox4\"]:"],["[template=\"swiperBox4\"] div ","div[template=\"swiperBox4\"] "],["[template=\"swiperBox4\"] div{","div[template=\"swiperBox4\"]{"],["[template=\"copyright\"] .mt30:",".mt30[template=\"copyright\"]:"],["[template=\"copyright\"] .mt30 ",".mt30[template=\"copyright\"] "],["[template=\"copyright\"] .mt30{",".mt30[template=\"copyright\"]{"],["[template=\"copyright\"] p:","p[template=\"copyright\"]:"],["[template=\"copyright\"] p ","p[template=\"copyright\"] "],["[template=\"copyright\"] p{","p[template=\"copyright\"]{"],["[template=\"home\"] .home:",".home[template=\"home\"]:"],["[template=\"home\"] .home ",".home[template=\"home\"] "],["[template=\"home\"] .home{",".home[template=\"home\"]{"],["[template=\"home\"] div:","div[template=\"home\"]:"],["[template=\"home\"] div ","div[template=\"home\"] "],["[template=\"home\"] div{","div[template=\"home\"]{"]] 
+17:28:11.735 INFO  正在处理script! 
+17:28:11.735 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/three-title-min.png 
+17:28:11.735 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/four-title-min.png 
+17:28:11.735 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/five-title-min.png 
+17:28:11.735 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon-min.png 
+17:28:11.735 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build-min.png 
+17:28:11.736 INFO  工程中只有一个页面! 
+17:28:11.737 DEBUG 选择将js合并到html中! 
+17:28:11.797 INFO  js中的资源处理完毕! 
+17:28:11.797 DEBUG 处理引用脚本: [{"name":"swiper2.7.0","src":"./src/resource/idangerous.swiper2.7.0.min.js","resource":true},{"name":"jquery1.11.0","src":"http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"}] 
+17:28:11.797 DEBUG 外部脚本数量: 2 
+17:28:11.797 DEBUG 处理脚本: swiper2.7.0 
+17:28:11.797 DEBUG 处理脚本: jquery1.11.0 
+17:28:11.797 DEBUG 网络脚本: jquery1.11.0 
+17:28:11.797 DEBUG 输出scriptData 
+17:28:11.797 INFO  写文件: D:\work\Three Eastern Provinces\dist\static\css\owo.animate.css 
+17:28:11.798 DEBUG 准备输出html! 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/build.png 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/mouse.png 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/message.png 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/spot.png 
+17:28:11.798 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/silk-ribbon.png 
+17:28:11.799 INFO  发送重新页面需要刷新命令! 
+17:28:11.803 INFO  主要逻辑文件写出成功! 
+17:28:11.804 INFO  animation文件写出成功! 
+17:28:11.804 INFO  读取成功: D:\work\Three Eastern Provinces\src\main.css 
+17:28:11.804 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg.jpg 
+17:28:11.804 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/bg-min.jpg 
+17:28:11.804 DEBUG 忽略文件: D:/work/Three Eastern Provinces/src/resource/one-main-min.png 
+17:28:11.806 INFO  写入文件: D:\work\Three Eastern Provinces\dist\static\css\main.css 
