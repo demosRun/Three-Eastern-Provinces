@@ -190,10 +190,20 @@ h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, form, bu
   top: 4vw;
   font-weight: normal;
   z-index: 999;
+  width: 90%;
+  height: 25px;
+  right: -90%;
 }
 
-.min .menu-box-right, .min .menu-box-left .one-button {
+.min .menu-box-right {
   display: none;
+}
+
+.min [template="home"] .menu-box .menu-box-left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
 }
 
 .min [template="home"] .menu-box .menu-box-left .active {

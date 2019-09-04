@@ -38,7 +38,7 @@ owo.script = {
         this.query('.mini-home')[0].style.display = 'block';
         this.query('.main-box')[0].style.display = 'none';
         this.query('.menu-box-left p').forEach(function (element) {
-          element.innerText = element.innerText + ' •';
+          element.innerText = element.innerText + '• ';
         });
       }
 
@@ -58,21 +58,25 @@ owo.script = {
           el: _this.query('.one.change-item')[0],
           end: function end(event) {
             if (Math.abs(event.swipe[0]) > 50 || Math.abs(event.swipe[1]) > 50) {
-              if (_owo.isMobi) {
-                if (_this.data.showText) {
-                  _this.two();
-                } else {
-                  _this.query('.mini-home')[0].style.display = 'none';
-                  _this.query('.main-box')[0].style.display = 'block';
-                  _this.data.showText = true;
-                }
-              } else {
-                _this.two();
-              }
+              _this.wantToTwo()
             }
           }
         });
       }, 1000);
+    },
+    wantToTwo: function () {
+      var _this = this
+      if (_owo.isMobi) {
+        if (_this.data.showText) {
+          _this.two();
+        } else {
+          _this.query('.mini-home')[0].style.display = 'none';
+          _this.query('.main-box')[0].style.display = 'block';
+          _this.data.showText = true;
+        }
+      } else {
+        _this.two();
+      }
     },
     "clearAndSet": function clearAndSet(key) {
       var _this2 = this;
@@ -115,8 +119,15 @@ owo.script = {
       this.query('.menu-box-right .spot')[0].style.top = '10px';
       this.query('.build')[0].style.opacity = '1';
       this.query('.one')[0].style.opacity = '1';
-      this.query('.menu-box')[0].style.right = '-100px';
-      this.query('.mouse')[0].style.display = 'block';
+      this.query('.menu-box')[0].style.right = '-90%';
+      
+      if(_owo.isMobi) {
+        this.query('.main-box')[0].style.display = 'none';
+        this.query('.mini-home')[0].style.display = 'block';
+        this.data.showText = false
+      } else {
+        this.query('.mouse')[0].style.display = 'block';
+      }
       this.clearAndSet('one');
     },
     "two": function two() {
