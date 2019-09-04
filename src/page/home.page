@@ -3,7 +3,7 @@
   temple(name="topBar", logo="http://www.people.com.cn/img/2016people/images/rmw_logo.png", src="https://owo.ink/public/2259616cc09d409ddece5662234b817e.page")
   // 封面
   .one.change-item(:tap="two")
-    .mini-home
+    img.mini-home(src="@|one-main-2.png|")
     .main-box
       p 2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
   //- 大楼
@@ -16,8 +16,8 @@
       .title-box 综述稿
       .main-title 新时代振兴需要创新精神
     .connent-box
-      temple(name="swiperBox1", src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page")
       .right-text &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。2018年9月底习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;围绕深入推进东北振兴的重大课题实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
+      temple(name="swiperBox1", src="https://owo.ink/public/292876bf66a5a620d45e1fc9c8c420eb.page")
     //- 我要留言
     a.message(href="")
       img(src="@|message.png|")
@@ -26,10 +26,10 @@
     h1 新时代振兴需要创新精神
     .title.clear
       span 辽宁频道
-      
+    .show-box
+      //- temple(name="swiperBox2", src="./src/module/swiper.owo")
+      embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
     p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
-    temple(name="swiperBox2", src="./src/module/swiper.owo")
-    embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
     //- 我要留言
     a.message(href="")
       img(src="@|message.png|")
@@ -38,10 +38,12 @@
     h1 新时代振兴需要创新精神
     .title.clear
       span 吉林频道
+    
+    .show-box
+      //- 轮播图
+      //- temple(name="swiperBox3", src="./src/module/swiper2.owo")
+      embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
     p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
-    //- 轮播图
-    temple(name="swiperBox3", src="./src/module/swiper2.owo")
-    embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
     //- 我要留言
     a.message(href="")
       img(src="@|message.png|")
@@ -50,10 +52,11 @@
     h1 新时代振兴需要创新精神
     .title.clear
       span 黑龙江频道
+    .show-box
+      //- 轮播图
+      temple(name="swiperBox4", src="./src/module/swiper3.owo")
+      //- embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
     p &nbsp;&nbsp;2018年9月底，习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。<br>&nbsp;&nbsp;习近平总书记调研东北三省，围绕深入推进东北振兴的重大课题，实地考察调研并主持召开座谈会，沿途发表了一系列重要讲话。
-    //- 轮播图
-    temple(name="swiperBox4", src="./src/module/swiper3.owo")
-    embed(name="_v_p_781" width="700", height="340", src="http://tv.people.com.cn/img/2011ptv2/playerByOsmf.swf", wmode="opaque", allowfullscreen="true", allowscriptaccess="always", pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash", flashvars="id=/pvservice/xml//2019/8/26/58bd7372-1454-4877-86c7-5b8a143676fd.xml&amp;skip=1&amp;showid=pvpShowDiv&amp;width=700&amp;height=340&amp;nodeid=216321&amp;cdn=100%2C0%2C0%2C0&amp;sl=5&amp;key=", type="application/x-shockwave-flash")
     //- 我要留言
     a.message(href="")
       img(src="@|message.png|")
@@ -76,6 +79,7 @@
   module.exports = {
     data: {
       swiperCreated: false,
+      showText: false,
       card2: false,
       card3: false,
       card4: false,
@@ -87,6 +91,12 @@
         this.query('.three.change-item .title')[0].src = "@|three-title-min.png|"
         this.query('.four.change-item .title')[0].src = "@|four-title-min.png|"
         this.query('.five.change-item .title')[0].src = "@|five-title-min.png|"
+        this.query('.mini-home')[0].style.display = 'block'
+        this.query('.main-box')[0].style.display = 'none'
+        
+        this.query('.menu-box-left p').forEach(element => {
+          element.innerText = element.innerText + ' •'
+        })
       }
       owo.tool.animate('fadeInUp', this.query('.silk-ribbon')[0])
       owo.tool.animate('fadeInUp', this.query('.build')[0], 800)
@@ -104,7 +114,18 @@
           el: this.query('.one.change-item')[0],
           end: (event) => {
             if (Math.abs(event.swipe[0]) > 50 || Math.abs(event.swipe[1]) > 50) {
-              this.two()
+              if (_owo.isMobi) {
+                if (this.data.showText) {
+                  this.two()
+                } else {
+                  this.query('.mini-home')[0].style.display = 'none'
+                  this.query('.main-box')[0].style.display = 'block'
+                  this.data.showText = true
+                }
+              } else {
+                this.two()
+              }
+              
             }
           }
         })
@@ -336,6 +357,10 @@
       font-size: 15px;
     }
   }
+  .mini-home {
+    width: 100%;
+    display: none;
+  }
 }
 .one {
   display: block;
@@ -360,7 +385,7 @@
   .connent-box {
     padding-top: 40px;
     .swiper-box {
-      float: left;
+      float: right;
     }
     .right-text {
       color: #01336a;
@@ -369,7 +394,7 @@
       width: 450px;
       height: 330px;
       overflow: auto;
-      float: left;
+      float: right;
       margin-left: 40px;
     }
   }

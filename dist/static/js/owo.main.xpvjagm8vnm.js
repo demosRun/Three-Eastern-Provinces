@@ -1,4 +1,236 @@
-// Tue Sep 03 2019 17:28:11 GMT+0800 (GMT+08:00)
+// Wed Sep 04 2019 13:01:55 GMT+0800 (GMT+08:00)
+
+"use strict";
+
+// 存储页面基本信息
+var owo = {
+  // 页面默认入口 如果没有设置 则取第一个页面为默认页面
+  entry: "home",
+  // 全局方法变量
+  tool: {},
+  // 框架状态变量
+  state: {}
+};
+/*
+  存储每个页面的函数
+  键名：页面名称
+  键值：方法列表
+*/
+
+owo.script = {
+  "home": {
+    "data": {
+      "swiperCreated": false,
+      "showText": false,
+      "card2": false,
+      "card3": false,
+      "card4": false
+    },
+    "created": function created() {
+      var _this = this;
+
+      // 判断是否为手机
+      if (_owo.isMobi) {
+        document.body.classList.add('min');
+        this.query('.three.change-item .title')[0].src = "./static/resource/three-title-min.png";
+        this.query('.four.change-item .title')[0].src = "./static/resource/four-title-min.png";
+        this.query('.five.change-item .title')[0].src = "./static/resource/five-title-min.png";
+        this.query('.mini-home')[0].style.display = 'block';
+        this.query('.main-box')[0].style.display = 'none';
+        this.query('.menu-box-left p').forEach(function (element) {
+          element.innerText = element.innerText + ' •';
+        });
+      }
+
+      owo.tool.animate('fadeInUp', this.query('.silk-ribbon')[0]);
+      owo.tool.animate('fadeInUp', this.query('.build')[0], 800);
+      owo.tool.animate('flash', this.query('.mouse')[0], 1400); // 如果是手机则更换图片
+
+      if (_owo.isMobi) {
+        this.query('.silk-ribbon')[0].src = './static/resource/silk-ribbon-min.png';
+        this.query('.build')[0].src = './static/resource/build-min.png';
+      } // 判断用户是否滑动
+      // console.log(this.$el)
+
+
+      setTimeout(function () {
+        owo.tool.touch({
+          el: _this.query('.one.change-item')[0],
+          end: function end(event) {
+            if (Math.abs(event.swipe[0]) > 50 || Math.abs(event.swipe[1]) > 50) {
+              if (_owo.isMobi) {
+                if (_this.data.showText) {
+                  _this.two();
+                } else {
+                  _this.query('.mini-home')[0].style.display = 'none';
+                  _this.query('.main-box')[0].style.display = 'block';
+                  _this.data.showText = true;
+                }
+              } else {
+                _this.two();
+              }
+            }
+          }
+        });
+      }, 1000);
+    },
+    "clearAndSet": function clearAndSet(key) {
+      var _this2 = this;
+
+      var domList = this.query('.menu-box-left p');
+      var changeItem = this.query('.change-item');
+
+      for (var ind = 0; ind < domList.length; ind++) {
+        var element = domList[ind];
+        element.classList.remove('active');
+      }
+
+      for (var _ind = 0; _ind < changeItem.length; _ind++) {
+        var _element = changeItem[_ind];
+        _element.style.opacity = 0;
+      }
+
+      this.query("." + key)[0].style.display = 'block';
+      this.query("." + key + '-button')[0].classList.add('active');
+      setTimeout(function () {
+        _this2.query("." + key)[0].style.opacity = 1;
+      }, 600);
+      setTimeout(function () {
+        for (var _ind2 = 0; _ind2 < changeItem.length; _ind2++) {
+          var _element2 = changeItem[_ind2];
+
+          if (!_element2.classList.contains(key)) {
+            _element2.style.display = 'none';
+          }
+        }
+
+        _this2.data.isChange = false;
+      }, 800);
+      document.getElementsByClassName('mt30')[0].style.display = 'none';
+    },
+    "one": function one() {
+      console.log('进入封面!');
+      if (this.data.isChange == true) return;
+      this.data.isChange = true;
+      this.query('.menu-box-right .spot')[0].style.top = '10px';
+      this.query('.build')[0].style.opacity = '1';
+      this.query('.one')[0].style.opacity = '1';
+      this.query('.menu-box')[0].style.right = '-100px';
+      this.query('.mouse')[0].style.display = 'block';
+      this.clearAndSet('one');
+    },
+    "two": function two() {
+      if (!this.data.swiperCreated) {
+        new Swiper('.swiper-container-pPX8XxuUyIehAAEu', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu',
+          paginationClickable: true
+        });
+        this.data.swiperCreated = true;
+      }
+
+      console.log('进入综述!');
+      if (this.data.isChange == true) return;
+      this.data.isChange = true;
+      this.query('.build')[0].style.opacity = '0';
+      this.query('.one')[0].style.opacity = '0';
+      this.query('.menu-box')[0].style.right = '4%';
+      this.query('.mouse')[0].style.display = 'none'; // 小圆点移动
+
+      this.query('.menu-box-right .spot')[0].style.top = '60px';
+      this.query('.build')[0].display = 'none';
+      this.clearAndSet('two');
+    },
+    "three": function three() {
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu2').length > 0 && !this.data.card2) {
+        this.data.card2 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu2', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu2',
+          paginationClickable: true
+        });
+      } // 小圆点移动
+
+
+      if (this.data.isChange == true) return;
+      this.data.isChange = true;
+      this.query('.menu-box-right .spot')[0].style.top = '110px';
+      this.clearAndSet('three');
+    },
+    "four": function four() {
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu3').length > 0 && !this.data.card3) {
+        this.data.card3 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu3', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu3',
+          paginationClickable: true
+        });
+      } // 小圆点移动
+
+
+      if (this.data.isChange == true) return;
+      this.data.isChange = true;
+      this.query('.menu-box-right .spot')[0].style.top = '160px';
+      this.clearAndSet('four');
+    },
+    "five": function five() {
+      if (this.query('.swiper-container-pPX8XxuUyIehAAEu4').length > 0 && !this.data.card4) {
+        this.data.card3 = new Swiper('.swiper-container-pPX8XxuUyIehAAEu4', {
+          autoplay: 3000,
+          pagination: '.pagination-pPX8XxuUyIehAAEu4',
+          paginationClickable: true
+        });
+      } // 小圆点移动
+
+
+      if (this.data.isChange == true) return;
+      this.data.isChange = true;
+      this.query('.menu-box-right .spot')[0].style.top = '210px';
+      this.clearAndSet('five');
+      document.getElementsByClassName('mt30')[0].style.display = 'block';
+    },
+    "template": {
+      "topBar": {
+        "prop": {
+          "logo": "http://www.people.com.cn/img/2016people/images/rmw_logo.png"
+        }
+      },
+      "swiperBox1": {
+        "data": {
+          "swiperBoxList": [{
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }]
+        },
+        "created": function created() {},
+        "prop": {}
+      },
+      "swiperBox4": {
+        "data": {
+          "swiperBoxList": [{
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181255181321992447490.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011409383792014803.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }, {
+            "src": "http://www.people.com.cn/NMediaFile/2019/0618/MAIN201906181011411060153107563.jpg",
+            "text": "全省“法治进校园”巡讲团首站——晋中"
+          }]
+        },
+        "created": function created() {},
+        "prop": {}
+      },
+      "copyright": {
+        "prop": {}
+      }
+    }
+  }
+};
 
 /* 方法合集 */
 var _owo = {

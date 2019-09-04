@@ -88,6 +88,10 @@ module.exports = {
     {
       name: "jquery1.11.0",
       src: "http://tools.people.com.cn/libs/jquery/1.11.1/jquery-1.11.1.min.js"
+    },
+    {
+      name: "v",
+      src: "http://tv.people.com.cn/img/player/v.js"
     }
   ],
   // 使用到的样式列表
